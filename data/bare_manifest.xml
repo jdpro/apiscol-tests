@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is a Reload LD Editor version 2.1.3 IMS Learning Design 1.0 document--><!--Spawned from the Reload Learning Design Generator - http://www.reload.ac.uk--><manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:imsld="http://www.imsglobal.org/xsd/imsld_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="manifest-D9AE4902-CC35-8305-E16C-2C5E833056B8" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsld_v1p0 http://www.imsglobal.org/xsd/IMS_LD_Level_B.xsd">
+  <organizations>
+    <imsld:learning-design identifier="v-37" level="B" sequence-used="false" uri="URI">
+      <imsld:title>Methode</imsld:title>
+<imsld:metadata>
+              <adlcp:location>http://localhost:8080/meta/lom/7/b/6/0181f-1446-4b21-ad1f-a5ee8696870e.xml</adlcp:location>
+            </imsld:metadata>
+      <imsld:components>
+        <imsld:roles>
+          <imsld:learner identifier="v-1">
+            <imsld:title>Elèves</imsld:title>
+          </imsld:learner>
+          <imsld:staff identifier="v-2">
+            <imsld:title>Professeur</imsld:title>
+          </imsld:staff>
+        </imsld:roles>
+        <imsld:activities>
+          <imsld:learning-activity identifier="v-18" isvisible="false">
+            <imsld:title>Activité 2: la dissolution (compte rendu)</imsld:title>
+            <imsld:environment-ref ref="v-38"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-18-v-18Url1" identifierref="resource-906e9d5b-fa05-b255-9e33-925ec89f4505" isvisible="true">
+                <imsld:title>Activity description v-18</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="v-19" isvisible="false">
+            <imsld:title>TP: Toutes les solutions aqueuses conduisent-elles le courant électrique?</imsld:title>
+            <imsld:environment-ref ref="v-39"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-19-v-19Url1" identifierref="resource-9f6ae151-b5ce-e515-73e0-9926d3712157" isvisible="true">
+                <imsld:title>Activity description v-19</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="v-12" isvisible="false">
+            <imsld:title>Activité documentaire 1: l'eau d'Hépar</imsld:title>
+            <imsld:environment-ref ref="v-41"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-12-v-12Url1" identifierref="resource-811434b2-96e4-8f7e-fd9c-799d41ca34bc" isvisible="true">
+                <imsld:title>Activity description v-12</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="v-33" isvisible="false">
+            <imsld:title>La conductivité des solutions ioniques: la migration des ions</imsld:title>
+            <imsld:environment-ref ref="v-42"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-33-v-33Url1" identifierref="resource-142c9253-b9ee-198d-a59f-17438e891741" isvisible="true">
+                <imsld:title>Activity description v-33</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="v-34" isvisible="false">
+            <imsld:title>Activité de synthèse: le déplacement des charges dans les fils électriques et dans une solution ionique</imsld:title>
+            <imsld:environment-ref ref="v-43"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-34-v-34Url1" identifierref="resource-3852d733-97c3-db4f-b5ec-f8041dbea4d3" isvisible="true">
+                <imsld:title>Activity description v-34</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="v-23" isvisible="false">
+            <imsld:title>Activité4: Comment obtenir un ion. Les ions négatifs.</imsld:title>
+            <imsld:environment-ref ref="v-44"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-23-v-23Url1" identifierref="resource-e7f4d4ac-6604-9a20-2077-37eb54feefa3" isvisible="true">
+                <imsld:title>Activity description v-23</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="v-26" isvisible="false">
+            <imsld:title>Activité5: les ions positifs.</imsld:title>
+            <imsld:environment-ref ref="v-45"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-26-v-26Url1" identifierref="resource-55627ded-03dd-3a48-9fb4-696bd9432c86" isvisible="true">
+                <imsld:title>Activity description v-26</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="v-20" isvisible="false">
+            <imsld:title>Démarche d'investigation: Pourquoi faut-il se méfier des appareils électrique si l'on est mouillé (salle de bain)?</imsld:title>
+            <imsld:activity-description>
+              <imsld:item identifier="v-20-v-20Url1" identifierref="resource-7723c376-6f00-0f76-aee0-982e661406c5" isvisible="true">
+                <imsld:title>Activity description v-20</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:lomfr="http://www.lom-fr.fr/xsd/LOMFR" xmlns:scolomfr="http://www.lom-fr.fr/xsd/SCOLOMFR" xsi:schemaLocation="http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/xsd/scolomfrv1.1/scolomfr.xsd">
+                  <general>
+                    <identifier>
+                      <catalog/>
+                      <entry/>
+                    </identifier>
+                    <title>
+                      <string language="fre">Démarche d'investigation. Eau du robinet</string>
+                    </title>
+                    <language>fre</language>
+                    <description>
+                      <string language="fre">Pourquoi faut-il faire attention à l'eau du robinet en manipulant des appareils électriques?</string>
+                    </description>
+                    <keyword>
+                      <string language="fre">démarche d'investigation</string>
+                    </keyword>
+                    <keyword>
+                      <string language="fre">eau du robinet</string>
+                    </keyword>
+                    <keyword>
+                      <string language="fre">sécurité électrique</string>
+                    </keyword>
+                    <keyword>
+                      <string language="fre">ion</string>
+                    </keyword>
+                    <aggregationLevel>
+                      <source>LOMv1.0</source>
+                      <value>2</value>
+                    </aggregationLevel>
+                    <lomfr:documentType>
+                      <lomfr:source>LOMFRv1.0</lomfr:source>
+                      <lomfr:value>texte</lomfr:value>
+                    </lomfr:documentType>
+                    <scolomfr:generalResourceType>
+                      <scolomfr:source>SCOLOMFRv1.1</scolomfr:source>
+                      <scolomfr:value>note</scolomfr:value>
+                    </scolomfr:generalResourceType>
+                  </general>
+                  <lifeCycle>
+                    <status>
+                      <source>LOMv1.0</source>
+                      <value>final</value>
+                    </status>
+                    <contribute>
+                      <role>
+                        <source>LOMv1.0</source>
+                        <value>publisher</value>
+                      </role>
+                      <entity><![CDATA[BEGIN:VCARD VERSION:3.0 ORG:CRDP Versailles END:VCARD]]></entity>
+                      <date>
+                        <dateTime>2012-10-16</dateTime>
+                      </date>
+                    </contribute>
+                    <contribute>
+                      <role>
+                        <source>LOMv1.0</source>
+                        <value>author</value>
+                      </role>
+                      <entity><![CDATA[BEGIN:VCARD VERSION:3.0 FN:MOREAU, Philippe N:MOREAU, Philippe END:VCARD]]></entity>
+                      <date>
+                        <dateTime>2012-10-10</dateTime>
+                      </date>
+                    </contribute>
+                    <contribute>
+                      <role>
+                        <source>LOMv1.0</source>
+                        <value>author</value>
+                      </role>
+                      <entity><![CDATA[BEGIN:VCARD VERSION:3.0 FN:MOREAU, Philippe N:MOREAU, Philippe END:VCARD]]></entity>
+                      <date>
+                        <dateTime>2012-10-10</dateTime>
+                      </date>
+                    </contribute>
+                    <contribute>
+                      <role>
+                        <source>LOMv1.0</source>
+                        <value>graphical designer</value>
+                      </role>
+                      <entity><![CDATA[BEGIN:VCARD VERSION:3.0 FN:MOREAU, Philippe N:MOREAU, Philippe END:VCARD]]></entity>
+                      <date>
+                        <dateTime>2012-10-10</dateTime>
+                      </date>
+                    </contribute>
+                    <contribute>
+                      <role>
+                        <source>LOMv1.0</source>
+                        <value>validator</value>
+                      </role>
+                      <entity><![CDATA[BEGIN:VCARD VERSION:3.0 FN:CRDP MOREAU, Philippe N:CRDP MOREAU, Philippe END:VCARD]]></entity>
+                      <date/>
+                    </contribute>
+                  </lifeCycle>
+                  <metaMetadata>
+                    <identifier>
+                      <catalog>Apiscol :example</catalog>
+                      <entry/>
+                    </identifier>
+                    <contribute>
+                      <role>
+                        <source>LOMv1.0</source>
+                        <value>creator</value>
+                      </role>
+                      <entity><![CDATA[BEGIN:VCARD VERSION:3.0 FN:MOREAU, Philippe ORG:CRDP de l'académie de la Versailles END:VCARD]]></entity>
+                      <date>
+                        <dateTime>2012-10-16</dateTime>
+                      </date>
+                    </contribute>
+                    <metadataSchema>SCOLOMFRv1.0</metadataSchema>
+                    <language>fre</language>
+                  </metaMetadata>
+                  <technical>
+                    <format>application/x-uniboard+zip</format>
+                    <size>642</size>
+                    <location/>
+                    <requirement>
+                      <orComposite>
+                        <type>
+                          <source>LOMv1.0</source>
+                          <value>operating system</value>
+                        </type>
+                        <name>
+                          <source>LOMv1.0</source>
+                          <value>multi-os</value>
+                        </name>
+                      </orComposite>
+                    </requirement>
+                    <installationRemarks>
+                      <string language="fre">Le fichier UBZ doit être téléchargé et importé dans le logiciel Open Sankore : dans le panneau "documents", choisissez "importer".</string>
+                    </installationRemarks>
+                    <otherPlatformRequirements>
+                      <string language="fre"><![CDATA[Nécessite le logiciel Open Sankoré téléchargeable sur <a xmlns="http://www.w3.org/1999/xhtml" href="http://open-sankore.org/fr">le site open-sankore.org</a>]]></string>
+                    </otherPlatformRequirements>
+                  </technical>
+                  <educational>
+                    <intendedEndUserRole>
+                      <source>LOMv1.0</source>
+                      <value>teacher</value>
+                    </intendedEndUserRole>
+                    <intendedEndUserRole>
+                      <source>LOMv1.0</source>
+                      <value>learner</value>
+                    </intendedEndUserRole>
+                    <learningResourceType>
+                      <source>LOMFRv1.0</source>
+                      <value>lecture</value>
+                    </learningResourceType>
+                    <typicalLearningTime>
+                      <duration>PT2H</duration>
+                    </typicalLearningTime>
+                    <context>
+                      <source>LOMv1.0</source>
+                      <value>school</value>
+                    </context>
+                    <context>
+                      <source>LOMFRv1.0</source>
+                      <value>enseignement secondaire</value>
+                    </context>
+                    <description>
+                      <string language="fre"/>
+                    </description>
+                    <description>
+                      <string language="fre"/>
+                    </description>
+                    <language>fre</language>
+                    <lomfr:activity>
+                      <lomfr:source>LOMFRv1.0</lomfr:source>
+                      <lomfr:value>apprendre</lomfr:value>
+                    </lomfr:activity>
+                    <scolomfr:place>
+                      <scolomfr:source>SCOLOMFRv1.0</scolomfr:source>
+                      <scolomfr:value>en atelier</scolomfr:value>
+                    </scolomfr:place>
+                    <scolomfr:educationalMethod>
+                      <scolomfr:source>SCOLOMFRv1.1</scolomfr:source>
+                      <scolomfr:value>en classe entière</scolomfr:value>
+                    </scolomfr:educationalMethod>
+                    <scolomfr:tool>
+                      <scolomfr:source>SCOLOMFRv1.0</scolomfr:source>
+                      <scolomfr:value>TBI</scolomfr:value>
+                    </scolomfr:tool>
+                  </educational>
+                  <rights>
+                    <cost>
+                      <source>LOMv1.0</source>
+                      <value>no</value>
+                    </cost>
+                    <copyrightAndOtherRestrictions>
+                      <source>LOMv1.0</source>
+                      <value>yes</value>
+                    </copyrightAndOtherRestrictions>
+                    <description>
+                      <string language="fre">CC Paternité, pas d'utilisation commerciale</string>
+                    </description>
+                  </rights>
+                  <relation/>
+                  <classification>
+                    <purpose>
+                      <source>LOMv1.0</source>
+                      <value>discipline</value>
+                    </purpose>
+                    <taxonPath>
+                      <source>
+                        <string language="fre">Nomenclature disciplines professionnelle</string>
+                      </source>
+                      <taxon>
+                        <id>ScPhys</id>
+                        <entry>
+                          <string language="fre">Sciences Physiques</string>
+                        </entry>
+                      </taxon>
+                    </taxonPath>
+                    <taxonPath>
+                      <source>
+                        <string language="fre"/>
+                      </source>
+                      <taxon>
+                        <id/>
+                        <entry>
+                          <string language="fre"/>
+                        </entry>
+                      </taxon>
+                    </taxonPath>
+                  </classification>
+                  <classification>
+                    <purpose>
+                      <source>LOMv1.0</source>
+                      <value>educational level</value>
+                    </purpose>
+                    <taxonPath>
+                      <source>
+                        <string language="fre">scolomfr-voc-022</string>
+                      </source>
+                      <taxon>
+                        <id>scolomfr-voc-022-num-027</id>
+                        <entry>
+                          <string language="fre">troisieme</string>
+                        </entry>
+                      </taxon>
+                      <taxon>
+                        <id>scolomfr-voc-022-num-087</id>
+                        <entry>
+                          <string language="fre">collège</string>
+                        </entry>
+                      </taxon>
+                    </taxonPath>
+                    <taxonPath>
+                      <source>
+                        <string language="fre"/>
+                      </source>
+                      <taxon>
+                        <id/>
+                        <entry>
+                          <string language="fre"/>
+                        </entry>
+                      </taxon>
+                    </taxonPath>
+                    <!--<taxonPath>  
+			<source>
+				<string language="fre">Modules Elémentaires de formation</string>
+			</source>
+			<taxon>
+				<id>2473340331</id>
+				<entry>
+					<string language="fre">2ndpro commerc. services en restauration</string>
+				</entry>
+			</taxon>
+		</taxonPath>
+		<taxonPath>  
+			<source>
+				<string language="fre">Modules Elémentaires de formation</string>
+			</source>
+			<taxon>
+				<id>2473340231</id>
+				<entry>
+					<string language="fre">2nde pro restauration</string>
+				</entry>
+			</taxon>
+		</taxonPath>-->
+                  </classification>
+                  <classification>
+                    <purpose>
+                      <source>SCOLOMFRv1.0</source>
+                      <value>public cible détaillé</value>
+                    </purpose>
+                    <taxonPath>
+                      <source>
+                        <string language="fre">scolomfr-voc-021</string>
+                      </source>
+                      <taxon>
+                        <id>scolomfr-voc-021-num-00092</id>
+                        <entry>
+                          <string language="fre">professeur de collège</string>
+                        </entry>
+                      </taxon>
+                    </taxonPath>
+                  </classification>
+                  <classification>
+                    <purpose>
+                      <source>LOMv1.0</source>
+                      <value>idea</value>
+                    </purpose>
+                    <taxonPath>
+                      <source>
+                        <string language="fre"/>
+                      </source>
+                      <taxon>
+                        <id>xxxxx</id>
+                        <entry>
+                          <string language="fre"/>
+                        </entry>
+                      </taxon>
+                    </taxonPath>
+                  </classification>
+                  
+                </lom>
+              </imsld:metadata>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="v-21" isvisible="false">
+            <imsld:title>Activité: l'eau du robinet</imsld:title>
+            <imsld:environment-ref ref="v-46"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-21-v-21Url1" identifierref="resource-a9426417-1dce-7793-eac3-550ef4e62716" isvisible="true">
+                <imsld:title>Activity description v-21</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="v-22" isvisible="false">
+            <imsld:title>Sécurité électrique</imsld:title>
+            <imsld:environment-ref ref="v-47"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-22-v-22Url1" identifierref="resource-65d3fdae-0f07-6cdc-04c3-a936c48daec2" isvisible="true">
+                <imsld:title>Activity description v-22</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="v-7" isvisible="true">
+            <imsld:title>Objectifs du chapitre</imsld:title>
+            <imsld:environment-ref ref="v-48"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-7-v-7Url1" identifierref="resource-a292acd6-9af7-97f5-476d-1db5c95d7b5c" isvisible="true">
+                <imsld:title>Activity description v-7</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:learning-activity identifier="v-8" isvisible="false">
+            <imsld:title>Liens avec l'histoire et le latin</imsld:title>
+            <imsld:environment-ref ref="v-49"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-8-v-8Url1" identifierref="resource-9c93663c-f293-8210-0419-ce3024a79312" isvisible="true">
+                <imsld:title>Activity description v-8</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:learning-activity>
+          <imsld:support-activity identifier="v-16" isvisible="false">
+            <imsld:title>TNI: La dissolution</imsld:title>
+            <imsld:role-ref ref="v-2"/>
+            <imsld:environment-ref ref="v-40"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-16-v-16Url1" identifierref="resource-46264674-2c01-7afe-c3c5-2027f35c0c1a" isvisible="true">
+                <imsld:title>Activity description v-16</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="v-15" isvisible="false">
+            <imsld:title>cours/définitions de base.</imsld:title>
+            <imsld:role-ref ref="v-2"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-15-v-15Url1" identifierref="resource-b9a40962-aa5d-a72b-9449-bfaaaabc08f2" isvisible="true">
+                <imsld:title>Activity description v-15</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:lomfr="http://www.lom-fr.fr/xsd/LOMFR" xmlns:scolomfr="http://www.lom-fr.fr/xsd/SCOLOMFR" xsi:schemaLocation="http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/xsd/scolomfrv1.1/scolomfr.xsd">
+                  <general>
+                    <identifier>
+                      <catalog/>
+                      <entry>http://localhost:8080/content/resource/meta_lien_histoire.xml?format=xml</entry>
+                    </identifier>
+                    <title>
+                      <string language="fre">Définitions de base</string>
+                    </title>
+                    <language>fre</language>
+                    <description>
+                      <string language="fre">définition de base de ce qu'est une solution aqueuse et savoir ce qu'est l'eau distillée</string>
+                    </description>
+                    <keyword>
+                      <string language="fre">solution aqueuse</string>
+                    </keyword>
+                    <keyword>
+                      <string language="fre">eau distillée</string>
+                    </keyword>
+                    <keyword>
+                      <string language="fre">eau</string>
+                    </keyword>
+                    <keyword>
+                      <string language="fre">H2O</string>
+                    </keyword>
+                    <keyword>
+                      <string language="fre">solvant</string>
+                    </keyword>
+                    <keyword>
+                      <string language="fre">Victor Hugo</string>
+                    </keyword>
+                    <keyword>
+                      <string language="fre">définition</string>
+                    </keyword>
+                    <aggregationLevel>
+                      <source>LOMv1.0</source>
+                      <value>2</value>
+                    </aggregationLevel>
+                    <lomfr:documentType>
+                      <lomfr:source>LOMFRv1.0</lomfr:source>
+                      <lomfr:value>texte</lomfr:value>
+                    </lomfr:documentType>
+                    <scolomfr:generalResourceType>
+                      <scolomfr:source>SCOLOMFRv1.1</scolomfr:source>
+                      <scolomfr:value>note</scolomfr:value>
+                    </scolomfr:generalResourceType>
+                  </general>
+                  <lifeCycle>
+                    <status>
+                      <source>LOMv1.0</source>
+                      <value>final</value>
+                    </status>
+                    <contribute>
+                      <role>
+                        <source>LOMv1.0</source>
+                        <value>publisher</value>
+                      </role>
+                      <entity><![CDATA[BEGIN:VCARD VERSION:3.0 ORG:CRDP Versailles END:VCARD]]></entity>
+                      <date>
+                        <dateTime>2012-10-16</dateTime>
+                      </date>
+                    </contribute>
+                    <contribute>
+                      <role>
+                        <source>LOMv1.0</source>
+                        <value>author</value>
+                      </role>
+                      <entity><![CDATA[BEGIN:VCARD VERSION:3.0 FN:MOREAU, Philippe N:MOREAU, Philippe END:VCARD]]></entity>
+                      <date>
+                        <dateTime>2012-10-10</dateTime>
+                      </date>
+                    </contribute>
+                    <contribute>
+                      <role>
+                        <source>LOMv1.0</source>
+                        <value>author</value>
+                      </role>
+                      <entity><![CDATA[BEGIN:VCARD VERSION:3.0 FN:MOREAU, Philippe N:MOREAU, Philippe END:VCARD]]></entity>
+                      <date>
+                        <dateTime>2012-10-10</dateTime>
+                      </date>
+                    </contribute>
+                    <contribute>
+                      <role>
+                        <source>LOMv1.0</source>
+                        <value>graphical designer</value>
+                      </role>
+                      <entity><![CDATA[BEGIN:VCARD VERSION:3.0 FN:MOREAU, Philippe N:MOREAU, Philippe END:VCARD]]></entity>
+                      <date>
+                        <dateTime>2012-10-10</dateTime>
+                      </date>
+                    </contribute>
+                    <contribute>
+                      <role>
+                        <source>LOMv1.0</source>
+                        <value>validator</value>
+                      </role>
+                      <entity><![CDATA[BEGIN:VCARD VERSION:3.0 FN:CRDP MOREAU, Philippe N:CRDP MOREAU, Philippe END:VCARD]]></entity>
+                      <date/>
+                    </contribute>
+                  </lifeCycle>
+                  <metaMetadata>
+                    <identifier>
+                      <catalog>Apiscol :example</catalog>
+                      <entry/>
+                    </identifier>
+                    <contribute>
+                      <role>
+                        <source>LOMv1.0</source>
+                        <value>creator</value>
+                      </role>
+                      <entity><![CDATA[BEGIN:VCARD VERSION:3.0 FN:MOREAU, Philippe ORG:CRDP de l'académie de la Versailles END:VCARD]]></entity>
+                      <date>
+                        <dateTime>2012-10-16</dateTime>
+                      </date>
+                    </contribute>
+                    <metadataSchema>SCOLOMFRv1.0</metadataSchema>
+                    <language>fre</language>
+                  </metaMetadata>
+                  <technical>
+                    <format>application/x-uniboard+zip</format>
+                    <size>642</size>
+                    <location/>
+                    <requirement>
+                      <orComposite>
+                        <type>
+                          <source>LOMv1.0</source>
+                          <value>operating system</value>
+                        </type>
+                        <name>
+                          <source>LOMv1.0</source>
+                          <value>multi-os</value>
+                        </name>
+                      </orComposite>
+                    </requirement>
+                    <installationRemarks>
+                      <string language="fre">Le fichier UBZ doit être téléchargé et importé dans le logiciel Open Sankore : dans le panneau "documents", choisissez "importer".</string>
+                    </installationRemarks>
+                    <otherPlatformRequirements>
+                      <string language="fre"><![CDATA[Nécessite le logiciel Open Sankoré téléchargeable sur <a xmlns="http://www.w3.org/1999/xhtml" href="http://open-sankore.org/fr">le site open-sankore.org</a>]]></string>
+                    </otherPlatformRequirements>
+                  </technical>
+                  <educational>
+                    <intendedEndUserRole>
+                      <source>LOMv1.0</source>
+                      <value>teacher</value>
+                    </intendedEndUserRole>
+                    <intendedEndUserRole>
+                      <source>LOMv1.0</source>
+                      <value>learner</value>
+                    </intendedEndUserRole>
+                    <learningResourceType>
+                      <source>LOMFRv1.0</source>
+                      <value>lecture</value>
+                    </learningResourceType>
+                    <typicalLearningTime>
+                      <duration>PT2H</duration>
+                    </typicalLearningTime>
+                    <context>
+                      <source>LOMv1.0</source>
+                      <value>school</value>
+                    </context>
+                    <context>
+                      <source>LOMFRv1.0</source>
+                      <value>enseignement secondaire</value>
+                    </context>
+                    <description>
+                      <string language="fre"/>
+                    </description>
+                    <description>
+                      <string language="fre"/>
+                    </description>
+                    <language>fre</language>
+                    <lomfr:activity>
+                      <lomfr:source>LOMFRv1.0</lomfr:source>
+                      <lomfr:value>apprendre</lomfr:value>
+                    </lomfr:activity>
+                    <scolomfr:place>
+                      <scolomfr:source>SCOLOMFRv1.0</scolomfr:source>
+                      <scolomfr:value>en atelier</scolomfr:value>
+                    </scolomfr:place>
+                    <scolomfr:educationalMethod>
+                      <scolomfr:source>SCOLOMFRv1.1</scolomfr:source>
+                      <scolomfr:value>en classe entière</scolomfr:value>
+                    </scolomfr:educationalMethod>
+                    <scolomfr:tool>
+                      <scolomfr:source>SCOLOMFRv1.0</scolomfr:source>
+                      <scolomfr:value>TBI</scolomfr:value>
+                    </scolomfr:tool>
+                  </educational>
+                  <rights>
+                    <cost>
+                      <source>LOMv1.0</source>
+                      <value>no</value>
+                    </cost>
+                    <copyrightAndOtherRestrictions>
+                      <source>LOMv1.0</source>
+                      <value>yes</value>
+                    </copyrightAndOtherRestrictions>
+                    <description>
+                      <string language="fre">CC Paternité, pas d'utilisation commerciale</string>
+                    </description>
+                  </rights>
+                  <relation/>
+                  <classification>
+                    <purpose>
+                      <source>LOMv1.0</source>
+                      <value>discipline</value>
+                    </purpose>
+                    <taxonPath>
+                      <source>
+                        <string language="fre">Nomenclature disciplines professionnelle</string>
+                      </source>
+                      <taxon>
+                        <id>ScPhys</id>
+                        <entry>
+                          <string language="fre">Sciences Physiques</string>
+                        </entry>
+                      </taxon>
+                    </taxonPath>
+                    <taxonPath>
+                      <source>
+                        <string language="fre"/>
+                      </source>
+                      <taxon>
+                        <id/>
+                        <entry>
+                          <string language="fre"/>
+                        </entry>
+                      </taxon>
+                    </taxonPath>
+                  </classification>
+                  <classification>
+                    <purpose>
+                      <source>LOMv1.0</source>
+                      <value>educational level</value>
+                    </purpose>
+                    <taxonPath>
+                      <source>
+                        <string language="fre">scolomfr-voc-022</string>
+                      </source>
+                      <taxon>
+                        <id>scolomfr-voc-022-num-027</id>
+                        <entry>
+                          <string language="fre">troisieme</string>
+                        </entry>
+                      </taxon>
+                      <taxon>
+                        <id>scolomfr-voc-022-num-087</id>
+                        <entry>
+                          <string language="fre">collège</string>
+                        </entry>
+                      </taxon>
+                    </taxonPath>
+                    <taxonPath>
+                      <source>
+                        <string language="fre"/>
+                      </source>
+                      <taxon>
+                        <id/>
+                        <entry>
+                          <string language="fre"/>
+                        </entry>
+                      </taxon>
+                    </taxonPath>
+                    <!--<taxonPath>  
+			<source>
+				<string language="fre">Modules Elémentaires de formation</string>
+			</source>
+			<taxon>
+				<id>2473340331</id>
+				<entry>
+					<string language="fre">2ndpro commerc. services en restauration</string>
+				</entry>
+			</taxon>
+		</taxonPath>
+		<taxonPath>  
+			<source>
+				<string language="fre">Modules Elémentaires de formation</string>
+			</source>
+			<taxon>
+				<id>2473340231</id>
+				<entry>
+					<string language="fre">2nde pro restauration</string>
+				</entry>
+			</taxon>
+		</taxonPath>-->
+                  </classification>
+                  <classification>
+                    <purpose>
+                      <source>SCOLOMFRv1.0</source>
+                      <value>public cible détaillé</value>
+                    </purpose>
+                    <taxonPath>
+                      <source>
+                        <string language="fre">scolomfr-voc-021</string>
+                      </source>
+                      <taxon>
+                        <id>scolomfr-voc-021-num-00092</id>
+                        <entry>
+                          <string language="fre">professeur de collège</string>
+                        </entry>
+                      </taxon>
+                    </taxonPath>
+                  </classification>
+                  <classification>
+                    <purpose>
+                      <source>LOMv1.0</source>
+                      <value>idea</value>
+                    </purpose>
+                    <taxonPath>
+                      <source>
+                        <string language="fre"/>
+                      </source>
+                      <taxon>
+                        <id>xxxxx</id>
+                        <entry>
+                          <string language="fre"/>
+                        </entry>
+                      </taxon>
+                    </taxonPath>
+                  </classification>
+                  
+                </lom>
+              </imsld:metadata>
+            </imsld:activity-description>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="v-24" isvisible="false">
+            <imsld:title>Compte rendu: les ions positifs.</imsld:title>
+            <imsld:role-ref ref="v-1"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-24-v-24Url1" identifierref="resource-3d16e17b-57ff-d16b-15f7-b8ba182b6b43" isvisible="true">
+                <imsld:title>Activity description v-24</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:support-activity>
+          <imsld:support-activity identifier="v-25" isvisible="false">
+            <imsld:title>Compte rendu: les ions négatifs.</imsld:title>
+            <imsld:role-ref ref="v-2"/>
+            <imsld:role-ref ref="v-1"/>
+            <imsld:activity-description>
+              <imsld:item identifier="v-25-v-25Url1" identifierref="resource-0f168654-8dfd-a6fe-efb9-9291887d4e94" isvisible="true">
+                <imsld:title>Activity description v-25</imsld:title>
+              </imsld:item>
+            </imsld:activity-description>
+          </imsld:support-activity>
+          <imsld:activity-structure identifier="v-0" structure-type="selection">
+            <imsld:title>Les solutions aqueuses</imsld:title>
+            <imsld:learning-activity-ref ref="v-18"/>
+            <imsld:learning-activity-ref ref="v-19"/>
+            <imsld:support-activity-ref ref="v-16"/>
+            <imsld:support-activity-ref ref="v-15"/>
+            <imsld:learning-activity-ref ref="v-12"/>
+            <imsld:learning-activity-ref ref="v-33"/>
+            <imsld:learning-activity-ref ref="v-34"/>
+            <imsld:learning-activity-ref ref="v-23"/>
+            <imsld:support-activity-ref ref="v-24"/>
+            <imsld:support-activity-ref ref="v-25"/>
+            <imsld:learning-activity-ref ref="v-26"/>
+            <imsld:learning-activity-ref ref="v-20"/>
+            <imsld:learning-activity-ref ref="v-21"/>
+            <imsld:learning-activity-ref ref="v-22"/>
+            <imsld:learning-activity-ref ref="v-7"/>
+            <imsld:learning-activity-ref ref="v-8"/>
+          </imsld:activity-structure>
+        </imsld:activities>
+        <imsld:environments>
+          <imsld:environment identifier="v-49">
+            <imsld:title>Environment v-49</imsld:title>
+            <imsld:learning-object identifier="v-11" isvisible="true" type="knowledge-object">
+              <imsld:title>lien avec l'histoire et le latin</imsld:title>
+              <imsld:item identifier="v-11-v-11Url1" identifierref="http://localhost:8080/content/resource/7438f298-33f6-4098-a7e7-55540bde3548" isvisible="true">
+                <imsld:title>lien avec l'histoire et le latin v-11</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <imsld:schema>histoire latin</imsld:schema>
+                <adlcp:location>http://localhost:8080/meta/lom/3/0/6/78953-f7f6-47f3-a840-87e7e4128357.xml</adlcp:location>
+              </imsld:metadata>
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="v-48">
+            <imsld:title>Environment v-48</imsld:title>
+            <imsld:learning-object identifier="v-10" isvisible="true" type="knowledge-object">
+              <imsld:title>tableau des objectifs</imsld:title>
+              <imsld:item identifier="v-10-v-10Url1" identifierref="http://localhost:8080/content/resource/65c67f8b-88f8-4613-95a0-e69ecc99d3d6" isvisible="true">
+                <imsld:title>tableau des objectifs v-10</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <adlcp:location>http://localhost:8080/meta/lom/e/5/d/1b54b-538b-4867-a9a3-1438f8fbf93c.xml</adlcp:location>
+              </imsld:metadata>
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="v-47">
+            <imsld:title>Environment v-47</imsld:title>
+            <imsld:learning-object identifier="v-30" isvisible="true" type="knowledge-object">
+              <imsld:title>Acitivté: document sur la sécurité électrique</imsld:title>
+              <imsld:item identifier="v-30-v-30Url1" identifierref="http://localhost:8080/content/resource/e521c953-c7dc-420f-b610-f8823f23e578" isvisible="true">
+                <imsld:title>Acitivté: document sur la sécurité électrique v-30</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <adlcp:location>http://localhost:8080/meta/lom/f/a/1/063f9-cd6c-47c6-951c-80f341fef60b.xml</adlcp:location>
+              </imsld:metadata>
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="v-46">
+            <imsld:title>Environment v-46</imsld:title>
+            <imsld:learning-object identifier="v-29" isvisible="true" type="knowledge-object">
+              <imsld:title>Activité: document sur l'eau du robinet</imsld:title>
+              <imsld:item identifier="v-29-v-29Url1" identifierref="http://localhost:8080/content/resource/341a7ac1-00e0-42cb-ac01-91e33877a1e8" isvisible="true">
+                <imsld:title>Activité: document sur l'eau du robinet v-29</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <adlcp:location>http://localhost:8080/meta/lom/2/f/0/ba0e4-aa72-4e92-8a5b-1dadea8a1eb4.xml</adlcp:location>
+              </imsld:metadata>
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="v-45">
+            <imsld:title>Environment v-45</imsld:title>
+            <imsld:learning-object identifier="v-32" isvisible="true" type="knowledge-object">
+              <imsld:title>Activité5: les cations</imsld:title>
+              <imsld:item identifier="v-32-v-32Url1" identifierref="http://localhost:8080/content/resource/3b0f5810-59c8-42d6-9fdb-1e21553836b8" isvisible="true">
+                <imsld:title>Activité5: les cations v-32</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <adlcp:location>http://localhost:8080/meta/lom/1/d/f/3b6ab-5f90-42b4-b48b-60a4584582d6.xml</adlcp:location>
+              </imsld:metadata>
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="v-44">
+            <imsld:title>Environment v-44</imsld:title>
+            <imsld:learning-object identifier="v-31" isvisible="true" type="knowledge-object">
+              <imsld:title>Activité4: les anions</imsld:title>
+              <imsld:item identifier="v-31-v-31Url1" identifierref="http://localhost:8080/content/resource/1c6801b6-1ec1-471a-8623-bbd34aed6067" isvisible="true">
+                <imsld:title>Activité4: les anions v-31</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <adlcp:location>http://localhost:8080/meta/lom/b/1/5/15486-e9f4-4c3b-b1e9-2cf9cf40c42e.xml</adlcp:location>
+              </imsld:metadata>
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="v-43">
+            <imsld:title>Environment v-43</imsld:title>
+            <imsld:learning-object identifier="v-36" isvisible="true" type="knowledge-object">
+              <imsld:title>Activité: document de synthèse sur le courant électrique</imsld:title>
+              <imsld:item identifier="v-36-v-36Url1" identifierref="http://localhost:8080/content/resource/08917423-e969-4484-b8e6-2d679bd1a9f4" isvisible="true">
+                <imsld:title>Activité: document de synthèse sur le courant électrique v-36</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <adlcp:location>http://localhost:8080/meta/lom/f/f/6/e6c86-06a1-4833-90cc-b456a652a335.xml</adlcp:location>
+              </imsld:metadata>
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="v-42">
+            <imsld:title>Environment v-42</imsld:title>
+            <imsld:learning-object identifier="v-35" isvisible="true" type="tool-object">
+              <imsld:title>Video: la migration des ions</imsld:title>
+              <imsld:item identifier="v-35-v-35Url1" identifierref="http://localhost:8080/content/resource/757088fb-eb55-4685-a16a-4da151adad0b" isvisible="true">
+                <imsld:title>Video: la migration des ions v-35</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <adlcp:location>http://localhost:8080/meta/lom/9/6/9/bed4a-37cc-4a96-9d18-6b467def2ce9.xml</adlcp:location>
+              </imsld:metadata>
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="v-41">
+            <imsld:title>Environment v-41</imsld:title>
+            <imsld:learning-object identifier="v-13" isvisible="true" type="knowledge-object">
+              <imsld:title>l'eau d'Hépar</imsld:title>
+              <imsld:item identifier="v-13-v-13Url1" identifierref="http://localhost:8080/content/resource/4ca7c7ed-5bc8-4c7b-b9ea-d7704ec36e62" isvisible="true">
+                <imsld:title>l'eau d'Hépar v-13</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <adlcp:location>http://localhost:8080/meta/lom/4/7/c/bb656-e35b-48a3-a6f1-d18090fb6e96.xml</adlcp:location>
+              </imsld:metadata>
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="v-40">
+            <imsld:title>Environment v-40</imsld:title>
+            <imsld:learning-object identifier="v-17" isvisible="true" type="tool-object">
+              <imsld:title>Dissolution du sel. jar java</imsld:title>
+              <imsld:item identifier="v-17-v-17Url1" identifierref="http://localhost:8080/content/resource/45f46e7a-db36-40cc-a775-d8c00b475106" isvisible="true">
+                <imsld:title>Dissolution du sel. jar java v-17</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <adlcp:location>http://localhost:8080/meta/lom/e/d/6/a13cf-6a97-4f1f-abca-95f9b064dd16.xml</adlcp:location>
+              </imsld:metadata>
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="v-39">
+            <imsld:title>Environment v-39</imsld:title>
+            <imsld:learning-object identifier="v-28" isvisible="true" type="tool-object">
+              <imsld:title>TP.</imsld:title>
+              <imsld:item identifier="v-28-v-28Url1" identifierref="http://localhost:8080/content/resource/1baab89c-08f3-4737-88ff-d5a809035ef7" isvisible="true">
+                <imsld:title>TP. v-28</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <adlcp:location>http://localhost:8080/meta/lom/d/7/e/480ae-90d3-4b6a-8785-3603045ce537.xml</adlcp:location>
+              </imsld:metadata>
+            </imsld:learning-object>
+          </imsld:environment>
+          <imsld:environment identifier="v-38">
+            <imsld:title>Environment v-38</imsld:title>
+            <imsld:learning-object identifier="v-27" isvisible="true" type="knowledge-object">
+              <imsld:title>activité2: document dissolution</imsld:title>
+              <imsld:item identifier="v-27-v-27Url1" identifierref="http://localhost:8080/content/resource/8b5ffa46-3587-4be6-9050-ec21f900ea49" isvisible="true">
+                <imsld:title>activité2: document dissolution v-27</imsld:title>
+              </imsld:item>
+              <imsld:metadata>
+                <adlcp:location>http://localhost:8080/meta/lom/e/5/5/f200a-72d8-4fa5-a77d-425b27ecadfb.xml</adlcp:location>
+              </imsld:metadata>
+            </imsld:learning-object>
+          </imsld:environment>
+        </imsld:environments>
+      </imsld:components>
+      <imsld:method>
+        <imsld:play identifier="v-01" isvisible="true">
+          <imsld:title>Play</imsld:title>
+          <imsld:act identifier="act-57ab47b3-f684-8ca2-d54b-05214e2c90ba">
+            <imsld:title>Objectif du chapitre</imsld:title>
+            <imsld:role-part identifier="rolepart-f4200210-637a-7ae4-c360-52af1561e00d">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+            <imsld:on-completion>
+              <imsld:feedback-description>
+                <imsld:item identifier="item-e5c9524e-86a4-e3bc-9af9-e28637786f3c" identifierref="resource-057e5e10-8bf5-7e10-27b5-0dee24e60b11" isvisible="true"/>
+              </imsld:feedback-description>
+            </imsld:on-completion>
+          </imsld:act>
+          <imsld:act identifier="act-369235fa-56e1-c9e9-5a56-ba94c35286c6">
+            <imsld:title>liens avec l'histoire et le latin</imsld:title>
+            <imsld:role-part identifier="rolepart-8b1af2e5-23ac-853d-1041-85fdb452132a">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-062c05d9-9ddf-8606-6a92-a3522bad1510">
+            <imsld:title>cours: définitions de base</imsld:title>
+            <imsld:role-part identifier="rolepart-870c700a-bfbf-d83a-4442-984fb7401964">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-e12b0480-40d8-9b40-e8c1-3f39f30bf7ad">
+            <imsld:title>Activité documentaire 1: l'eau d'Hépar</imsld:title>
+            <imsld:role-part identifier="rolepart-ef61b470-daa2-be76-6c61-3b535eba3a28">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-43c5bdb5-9028-25ad-d1c8-02fa80228d4b">
+            <imsld:title>TNI: La dissolution</imsld:title>
+            <imsld:role-part identifier="rolepart-46b6727a-1d1b-fb98-a921-3cb3c22754f4">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-1696120a-f233-911f-423e-7c57ce547174">
+            <imsld:title>Activité 2: la dissolution (compte rendu)</imsld:title>
+            <imsld:role-part identifier="rolepart-cd56d11b-7dc1-4ee9-7dbd-63a7233814a4">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-bd8e4145-b3d4-deac-c387-4a1863cf5297">
+            <imsld:title>TP: Toutes les solutions aqueuses conduisent-elles le courant électrique?</imsld:title>
+            <imsld:role-part identifier="rolepart-f422edb7-7dcd-51fe-21e8-9da873f48e8a">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-c1e56f81-c5b4-8816-5793-ce3138b9b46b">
+            <imsld:title>Démarche d'investigation: Pourquoi faut-il se méfier des appareils électrique si l'on est mouillé (salle de bain)?</imsld:title>
+            <imsld:role-part identifier="rolepart-c102dac3-cada-6b02-e32f-2d6e00d921e9">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-54af3d3a-2de7-ae4a-ee75-59078a76cd45">
+            <imsld:title>Activité3: l'eau du robinet</imsld:title>
+            <imsld:role-part identifier="rolepart-b94cf08d-1862-5d9b-6dba-b7bee29f3e99">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-ec58e4bb-09b7-6100-29c5-ce313bdf83b8">
+            <imsld:title>Sécurité électrique</imsld:title>
+            <imsld:role-part identifier="rolepart-f925a860-024f-5d63-b64e-1a6fb8fadf30">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-57d831fe-95b5-8ceb-af28-95ec09ea10b5">
+            <imsld:title>Activité4: Comment obtenir un ion. Les ions négatifs.</imsld:title>
+            <imsld:role-part identifier="rolepart-ebb94563-a414-4de0-1f56-b2990fe7cd2b">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-47dd354c-9c68-a379-988c-bdb8c12cb98d">
+            <imsld:title>Compte rendu: les ions négatifs</imsld:title>
+            <imsld:role-part identifier="rolepart-16d86497-fe35-094d-5672-980623766e89">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-5c4d964e-7a97-9dee-57e0-1d842a4fd648">
+            <imsld:title>Activité5: les ions positifs</imsld:title>
+            <imsld:role-part identifier="rolepart-e0f3ccc9-f754-cc7d-4aca-b43ee090bcce">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-c8098915-fff4-c618-5784-a0440ae4a39a">
+            <imsld:title>Compte rendu: les ions positifs.</imsld:title>
+            <imsld:role-part identifier="rolepart-0e21c934-89de-67d4-b3ce-bc06b4f6b848">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-b9269bc4-380e-841b-dc42-913a023c6402">
+            <imsld:title>La conductivité des solutions ioniques: la migration des ions</imsld:title>
+            <imsld:role-part identifier="rolepart-c08993eb-3168-3c2a-834d-e93c2e4b1628">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+          <imsld:act identifier="act-3c8928de-1143-e730-a94f-46159eb5bee7">
+            <imsld:title>Activité de synthèse: le déplacement des charges dans les fils électriques et dans une solution ionique</imsld:title>
+            <imsld:role-part identifier="rolepart-00c4267b-080f-1a94-5a3d-e93cc9c6610d">
+              <imsld:title>Role Part</imsld:title>
+              <imsld:role-ref ref="v-1"/>
+              <imsld:environment-ref ref="v-49"/>
+            </imsld:role-part>
+          </imsld:act>
+        </imsld:play>
+        <imsld:on-completion>
+          <imsld:feedback-description>
+            <imsld:title>Les solutions aqueuses</imsld:title>
+            <imsld:item identifier="item-83eaf1da-a78e-67a7-4920-9a2168098312" identifierref="resource-057e5e10-8bf5-7e10-27b5-0dee24e60b11" isvisible="true"/>
+            
+          </imsld:feedback-description>
+        </imsld:on-completion>
+        <imsld:conditions>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="v-7"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:learning-activity-ref ref="v-8"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="v-33"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:learning-activity-ref ref="v-34"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="v-23"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:support-activity-ref ref="v-25"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="v-22"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:learning-activity-ref ref="v-23"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:support-activity-ref ref="v-15"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:learning-activity-ref ref="v-12"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="v-26"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:support-activity-ref ref="v-24"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="v-21"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:learning-activity-ref ref="v-22"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="v-12"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:support-activity-ref ref="v-16"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="v-26"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:learning-activity-ref ref="v-33"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="v-20"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:learning-activity-ref ref="v-21"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:support-activity-ref ref="v-16"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:learning-activity-ref ref="v-18"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="v-8"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:support-activity-ref ref="v-15"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:support-activity-ref ref="v-25"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:learning-activity-ref ref="v-26"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="v-19"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:learning-activity-ref ref="v-20"/>
+            </imsld:show>
+          </imsld:then>
+          <imsld:if>
+            <imsld:complete>
+              <imsld:learning-activity-ref ref="v-18"/>
+            </imsld:complete>
+          </imsld:if>
+          <imsld:then>
+            <imsld:show>
+              <imsld:learning-activity-ref ref="v-19"/>
+            </imsld:show>
+          </imsld:then>
+        </imsld:conditions>
+      </imsld:method>
+    </imsld:learning-design>
+  </organizations>
+  <resources>
+    <resource href="http://localhost:8080/content/resources/4/c/a/7c7ed-5bc8-4c7b-b9ea-d7704ec36e62/activite1_Hepar.pdf" identifier="http://localhost:8080/content/resource/4ca7c7ed-5bc8-4c7b-b9ea-d7704ec36e62" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/1/3/a/91f8e-fea0-4a44-9f4a-41458046c0e6/objectifs.html" identifier="http://localhost:8080/content/resource/13a91f8e-fea0-4a44-9f4a-41458046c0e6" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/e/0/0/35a47-d422-4682-b5df-e741c06e2b16/Activite4_obtenir_ion_positif.html" identifier="http://localhost:8080/content/resource/e0035a47-d422-4682-b5df-e741c06e2b16" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/2/7/c/37d76-e5c1-4a8e-8197-b6c718414cce/bilan_conductivite.html" identifier="http://localhost:8080/content/resource/27c37d76-e5c1-4a8e-8197-b6c718414cce" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/0/2/6/5b1c4-7235-4028-8bf9-57a320fdf7cb/Activite3_obtenir_ion.html" identifier="http://localhost:8080/content/resource/0265b1c4-7235-4028-8bf9-57a320fdf7cb" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/e/2/6/a42fd-ba14-494e-a67d-8d6e10b38eba/La%20dissolution.%20TNI.html" identifier="http://localhost:8080/content/resource/e26a42fd-ba14-494e-a67d-8d6e10b38eba" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/1/b/a/ab89c-08f3-4737-88ff-d5a809035ef7/TP_conduction_solutions_aqueuses.pdf" identifier="http://localhost:8080/content/resource/1baab89c-08f3-4737-88ff-d5a809035ef7" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/1/5/b/e4de9-bf9b-47b5-b222-65580e59ddff/securite_electrique.html" identifier="http://localhost:8080/content/resource/15be4de9-bf9b-47b5-b222-65580e59ddff" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/9/f/8/795a8-abbc-4ba0-903d-002065e181ad/migration_ions.html" identifier="http://localhost:8080/content/resource/9f8795a8-abbc-4ba0-903d-002065e181ad" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/7/4/3/8f298-33f6-4098-a7e7-55540bde3548/liens_histoire_latin.pdf" identifier="http://localhost:8080/content/resource/7438f298-33f6-4098-a7e7-55540bde3548" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/7/e/c/8036f-ea84-47da-9008-e737dbee541d/lien_avec_histoire_latin.html" identifier="http://localhost:8080/content/resource/7ec8036f-ea84-47da-9008-e737dbee541d" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/9/5/f/05c65-d3f1-4fab-b419-78304c304a91/Activite3_%20L%27eau%20du%20robinet.html" identifier="http://localhost:8080/content/resource/95f05c65-d3f1-4fab-b419-78304c304a91" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/3/4/1/a7ac1-00e0-42cb-ac01-91e33877a1e8/demarche_investigation_eau_robinet.pdf" identifier="http://localhost:8080/content/resource/341a7ac1-00e0-42cb-ac01-91e33877a1e8" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/e/4/5/19aab-c553-4d57-9f30-8097f2fd6518/compte_rendu_anion.html" identifier="http://localhost:8080/content/resource/e4519aab-c553-4d57-9f30-8097f2fd6518" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/7/5/7/088fb-eb55-4685-a16a-4da151adad0b/migration_ions.wmv" identifier="http://localhost:8080/content/resource/757088fb-eb55-4685-a16a-4da151adad0b" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/5/7/e/3f013-9e78-4a11-beb6-152e22bc4b2b/document_synthese.html" identifier="http://localhost:8080/content/resource/57e3f013-9e78-4a11-beb6-152e22bc4b2b" type="webcontent">
+
+</resource>
+    <resource href="http://localhost:8080/content/resources/0/8/9/17423-e969-4484-b8e6-2d679bd1a9f4/document_synthese.pdf" identifier="http://localhost:8080/content/resource/08917423-e969-4484-b8e6-2d679bd1a9f4" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/6/5/c/67f8b-88f8-4613-95a0-e69ecc99d3d6/objectifs.pdf" identifier="http://localhost:8080/content/resource/65c67f8b-88f8-4613-95a0-e69ecc99d3d6" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/e/5/2/1c953-c7dc-420f-b610-f8823f23e578/securite%20electrique.pdf" identifier="http://localhost:8080/content/resource/e521c953-c7dc-420f-b610-f8823f23e578" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/5/8/7/d9825-25df-4e66-8fad-4b66fea8943c/compte_rendu_cations.html" identifier="http://localhost:8080/content/resource/587d9825-25df-4e66-8fad-4b66fea8943c" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/e/d/c/76fd4-2ff7-4a8e-9c77-3ca78de40465/activie2_dissolution.html" identifier="http://localhost:8080/content/resource/edc76fd4-2ff7-4a8e-9c77-3ca78de40465" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/6/1/f/8d327-a479-4906-b957-9ad7d294d356/eau_Hepar.html" identifier="http://localhost:8080/content/resource/61f8d327-a479-4906-b957-9ad7d294d356" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/4/d/3/1cd10-4a5d-4a9c-90ed-350ea600a4db/definition_de_base.html" identifier="http://localhost:8080/content/resource/4d31cd10-4a5d-4a9c-90ed-350ea600a4db" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/4/5/f/46e7a-db36-40cc-a775-d8c00b475106/soluble-salts_en.jar" identifier="http://localhost:8080/content/resource/45f46e7a-db36-40cc-a775-d8c00b475106" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/1/c/6/801b6-1ec1-471a-8623-bbd34aed6067/activite_3_ion_neg.pdf" identifier="http://localhost:8080/content/resource/1c6801b6-1ec1-471a-8623-bbd34aed6067" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/8/b/5/ffa46-3587-4be6-9050-ec21f900ea49/activite2_eau_salee.pdf" identifier="http://localhost:8080/content/resource/8b5ffa46-3587-4be6-9050-ec21f900ea49" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/3/b/0/f5810-59c8-42d6-9fdb-1e21553836b8/activite_3_ion_pos.pdf" identifier="http://localhost:8080/content/resource/3b0f5810-59c8-42d6-9fdb-1e21553836b8" type="webcontent">
+      
+    </resource>
+    <resource href="http://localhost:8080/content/resources/a/f/4/94c04-1cbf-4b7c-b821-e081628a9fcf/TP_conductivite.html" identifier="http://localhost:8080/content/resource/af494c04-1cbf-4b7c-b821-e081628a9fcf" type="webcontent">
+      
+    </resource>
+  </resources>
+</manifest>

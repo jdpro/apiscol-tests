@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:lomfr="http://www.lom-fr.fr/xsd/LOMFR" xmlns:scolomfr="http://www.lom-fr.fr/xsd/SCOLOMFR" xsi:schemaLocation="http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/xsd/scolomfrv1.1/scolomfr.xsd">
+<general><identifier><catalog>URI</catalog><entry>http://www.universcience-vod.fr/media/764/floraisons.html?page=1&amp;tag_id=1328</entry></identifier><title><string language="fre">Floraisons</string></title>
+<language>fre</language>
+<description><string language="fre">Cet extrait vidéo présente en images accélérées sans commentaires plusieurs fleurs en train de s'épanouir (crocus, nénuphar, jacinthe, rose) : les boutons floraux s'ouvrent en écartant les feuilles et les pétales, laissant apparaître les étamines et le pistil.</string></description>
+<coverage><string language="fre">21e siècle</string></coverage>
+<coverage><string language="fre">France</string></coverage>
+<aggregationLevel><source>LOMv1.0</source><value>1</value></aggregationLevel>
+</general><lifeCycle><status><source>LOMv1.0</source><value>final</value></status><contribute><role><source>LOMv1.0</source><value>publisher</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:Etablissement public du Palais de la découverte et de la Cité des sciences (EPPDCSI)
+END:VCARD ]]></entity><date><dateTime>2012-11-14</dateTime></date></contribute><contribute><role><source>LOMv1.0</source><value>publisher</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:Cité des sciences et de l&apos;industrie
+END:VCARD ]]></entity><date><dateTime>2012-11-14</dateTime></date></contribute><contribute><role><source>LOMv1.0</source><value>publisher</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:Palais de la découverte
+END:VCARD ]]></entity><date><dateTime>2012-11-14</dateTime></date></contribute><contribute><role><source>LOMv1.0</source><value>publisher</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:universcience.tv
+END:VCARD ]]></entity><date><dateTime>2012-11-14</dateTime></date></contribute><contribute><role><source>LOMv1.0</source><value>author</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Poirier, Henri-Louis
+N:Poirier, Henri-Louis
+END:VCARD ]]></entity><date><dateTime>2001-01-01</dateTime></date></contribute><contribute><role><source>LOMFRv1.0</source><value>contributeur</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Cité des sciences et de l&apos;industrie
+N:Cité des sciences et de l&apos;industrie
+END:VCARD ]]></entity><date/></contribute><contribute><role><source>LOMFRv1.0</source><value>contributeur</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Service du film de recherche scientifique
+N:Service du film de recherche scientifique
+END:VCARD ]]></entity><date/></contribute><contribute><role><source>LOMv1.0</source><value>validator</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Validé par institution hors éducation nationale
+N:Validé par institution hors éducation nationale
+END:VCARD ]]></entity><date/></contribute></lifeCycle><metaMetadata><identifier><catalog>URI</catalog><entry>http://www.educasources.education.fr/fiche-detaillee-162075.html</entry></identifier><contribute><role><source>LOMv1.0</source><value>creator</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:CRDP des Pays de la Loire
+END:VCARD ]]></entity><date><dateTime>2012-11-14</dateTime></date></contribute><contribute><role><source>LOMv1.0</source><value>validator</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:Validateur Numéribase
+END:VCARD ]]></entity><date><dateTime>2012-11-14</dateTime></date></contribute><metadataSchema>SCOLOMFRv1.0</metadataSchema><language>fre</language></metaMetadata><technical><format>application/x-shockwave-flash</format>
+<location>http://www.universcience-vod.fr/media/764/floraisons.html?page=1&amp;tag_id=1328</location><otherPlatformRequirements><string language="fre">Nécessite Adobe Flash Player</string></otherPlatformRequirements>
+</technical><educational><learningResourceType><source>LOMFRv1.0</source><value>animation</value></learningResourceType>
+<intendedEndUserRole><source>LOMv1.0</source><value>teacher</value></intendedEndUserRole><intendedEndUserRole><source>LOMv1.0</source><value>learner</value></intendedEndUserRole><lomfr:activity><lomfr:source>LOMFRv1.0</lomfr:source><lomfr:value>apprendre</lomfr:value></lomfr:activity>
+<lomfr:activity><lomfr:source>LOMFRv1.0</lomfr:source><lomfr:value>observer</lomfr:value></lomfr:activity>
+<lomfr:activity><lomfr:source>LOMFRv1.0</lomfr:source><lomfr:value>s'informer</lomfr:value></lomfr:activity>
+<lomfr:activity><lomfr:source>LOMFRv1.0</lomfr:source><lomfr:value>se former</lomfr:value></lomfr:activity>
+<scolomfr:place><scolomfr:source>SCOLOMFRv1.0</scolomfr:source><scolomfr:value>en milieu familial</scolomfr:value></scolomfr:place>
+<scolomfr:place><scolomfr:source>SCOLOMFRv1.0</scolomfr:source><scolomfr:value>en milieu professionnel</scolomfr:value></scolomfr:place>
+<scolomfr:place><scolomfr:source>SCOLOMFRv1.0</scolomfr:source><scolomfr:value>en salle de classe</scolomfr:value></scolomfr:place>
+<scolomfr:place><scolomfr:source>SCOLOMFRv1.0</scolomfr:source><scolomfr:value>hors établissement</scolomfr:value></scolomfr:place>
+<scolomfr:educationalMethod><scolomfr:source>SCOLOMFRv1.0</scolomfr:source><scolomfr:value>à distance</scolomfr:value></scolomfr:educationalMethod>
+<scolomfr:educationalMethod><scolomfr:source>SCOLOMFRv1.0</scolomfr:source><scolomfr:value>en autonomie</scolomfr:value></scolomfr:educationalMethod>
+<scolomfr:educationalMethod><scolomfr:source>SCOLOMFRv1.0</scolomfr:source><scolomfr:value>en ligne</scolomfr:value></scolomfr:educationalMethod>
+<scolomfr:educationalMethod><scolomfr:source>SCOLOMFRv1.0</scolomfr:source><scolomfr:value>modalité mixte</scolomfr:value></scolomfr:educationalMethod>
+</educational><rights><cost><source>LOMv1.0</source><value>no</value></cost><copyrightAndOtherRestrictions><source>LOMv1.0</source><value>yes</value></copyrightAndOtherRestrictions><description><string language="fre">Les textes et éléments graphiques, leur présentation et leur assemblage figurant dans ce site, les productions vidéo et sonores et d’une manière générale tous les documents contenus dans ce site, sont la propriété exclusive d'Universcience. Ils constituent des œuvres de l’esprit et sont protégés en tant que telles par les lois des pays du monde entier et les traités internationaux. Le nom d'Universcience et son logo sont protégés à titre de marques.    Voir à la page http://www.universcience.tv/article-faq-6.html :    'Est-il possible de diffuser les vidéos d’universcience.tv en classe ?    Oui, l’utilisation par les enseignants et la diffusion des vidéos d’universcience.tv sont autorisées en classe.' </string></description>
+</rights><relation><kind><source>LOMv1.0</source><value>ispartof</value></kind>
+<resource><identifier><catalog>URI</catalog><entry>http://www.universcience-vod.fr/categorie-a-toutes-vitesses-610.html</entry></identifier><description><string language="fre">Universcience.tv : à toutes vitesses </string></description></resource></relation><classification><purpose><source>LOMv1.0</source><value>discipline</value></purpose><taxonPath><source><string language="fre">Nomenclature Scérén : Domaines disciplinaires et transversaux</string></source><taxon><id>PRISCISET</id><entry><string language="fre">sciences expérimentales et technologie</string></entry></taxon><taxon><id>ENSSVT6</id><entry><string language="fre">SVT (sciences de la vie et de la Terre)</string></entry></taxon></taxonPath></classification><classification><purpose><source>LOMv1.0</source><value>educational level</value></purpose><taxonPath><source><string language="fre">Nomenclature Scérén : Niveaux d'enseignement et de formation</string></source><taxon><id>EPEE</id><entry><string language="fre">école élémentaire</string></entry></taxon><taxon><id>EPEEC3</id><entry><string language="fre">cycle 3</string></entry></taxon><taxon><id>ESD</id><entry><string language="fre">enseignement secondaire</string></entry></taxon><taxon><id>ES</id><entry><string language="fre">enseignement supérieur</string></entry></taxon></taxonPath></classification><classification><purpose><source>SCOLOMFRv1.0</source><value>public cible détaillé</value></purpose><taxonPath><source><string language="fre">Nomenclature Scérén v2007 : Publics</string></source><taxon><id>APPELE</id><entry><string language="fre">élève</string></entry></taxon><taxon><id>APPETU</id><entry><string language="fre">étudiant</string></entry></taxon><taxon><id>ENS</id><entry><string language="fre">enseignant</string></entry></taxon><taxon><id>PNE</id><entry><string language="fre">non-enseignant</string></entry></taxon><taxon><id>PUB</id><entry><string language="fre">autre public</string></entry></taxon></taxonPath></classification><classification><purpose><source>LOMv1.0</source><value>idea</value></purpose><taxonPath><source><string language="fre">thésaurus Motbis 2008</string></source><taxon><id>frCNDP00838</id><entry><string language="fre">anatomie végétale</string></entry></taxon><taxon><id>frCNDP05295</id><entry><string language="fre">croissance végétale</string></entry></taxon><taxon><id>frCNDP08202</id><entry><string language="fre">floraison</string></entry></taxon><taxon><id>frCNDP15053</id><entry><string language="fre">plante</string></entry></taxon></taxonPath></classification><classification><purpose><source>LOMv1.0</source><value>discipline</value></purpose><taxonPath><source><string language="fre">classification décimale Dewey</string></source><taxon><id>571.82</id></taxon></taxonPath></classification><classification><purpose><source>SCOLOMFRv1.0</source><value>enseignement</value></purpose><taxonPath><source><string language="fre">Nomenclature Scérén V2010 : Enseignement et domaines disciplinaires</string></source><taxon><id>PROGC3SETFV</id><entry><string language="fre">le fonctionnement du vivant</string></entry></taxon></taxonPath></classification></lom>

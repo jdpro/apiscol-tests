@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:lomfr="http://www.lom-fr.fr/xsd/LOMFR" xmlns:scolomfr="http://www.lom-fr.fr/xsd/SCOLOMFR" xsi:schemaLocation="http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/xsd/scolomfrv1.1/scolomfr.xsd">
+<general><identifier><catalog>URI</catalog><entry>http://www.institut-polaire.fr/</entry></identifier><title><string language="fre">Institut polaire français Paul Emile Victor</string></title>
+<language>fre</language>
+<description><string language="fre">L'Institut polaire français Paul Emile Victor (IPEV) créé en janvier 1992 est un Groupement d'Intérêt Public (GIP) dont la mission principale est de mettre en œuvre des programmes scientifiques dans les régions polaires et subpolaires des deux hémisphères. Le site de l’IPEV coordonne le programme d’information, de sensibilisation et d’éducation du public sur l’année polaire internationale, resitue l’institut et apporte des éléments sur les régions polaires, les bases, les navires, les programmes scientifiques ainsi que des liens.</string></description>
+<coverage><string language="fre">21e siècle</string></coverage>
+<coverage><string language="fre">Antarctique</string></coverage>
+<coverage><string language="fre">océan Arctique</string></coverage>
+<aggregationLevel><source>LOMv1.0</source><value>4</value></aggregationLevel>
+</general><lifeCycle><status><source>LOMv1.0</source><value>final</value></status><contribute><role><source>LOMv1.0</source><value>publisher</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:IPEV
+END:VCARD ]]></entity><date><dateTime>2007-04-12</dateTime></date></contribute><contribute><role><source>LOMv1.0</source><value>validator</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Validé par institution hors éducation nationale
+N:Validé par institution hors éducation nationale
+END:VCARD ]]></entity><date/></contribute></lifeCycle><metaMetadata><identifier><catalog>URI</catalog><entry>http://www.educasources.education.fr/fiche-detaillee-89282.html</entry></identifier><contribute><role><source>LOMv1.0</source><value>creator</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:CRDP de l&apos;académie d&apos;Amiens
+END:VCARD ]]></entity><date><dateTime>2007-04-12</dateTime></date></contribute><contribute><role><source>LOMv1.0</source><value>validator</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:Validateur Numéribase
+END:VCARD ]]></entity><date><dateTime>2007-06-15</dateTime></date></contribute><metadataSchema>SCOLOMFRv1.0</metadataSchema><language>fre</language></metaMetadata><technical><format>text/html</format>
+<location>http://www.institut-polaire.fr/</location></technical><educational><intendedEndUserRole><source>LOMv1.0</source><value>teacher</value></intendedEndUserRole><context><source>LOMFRv1.0</source><value>enseignement secondaire</value></context>
+<description><string language="fre">formation de l’enseignant</string></description>
+<description><string language="fre">préparation de cours</string></description>
+<lomfr:activity><lomfr:source>LOMFRv1.0</lomfr:source><lomfr:value>lire</lomfr:value></lomfr:activity>
+<lomfr:activity><lomfr:source>LOMFRv1.0</lomfr:source><lomfr:value>rechercher</lomfr:value></lomfr:activity>
+<lomfr:activity><lomfr:source>LOMFRv1.0</lomfr:source><lomfr:value>s'auto-former</lomfr:value></lomfr:activity>
+<lomfr:activity><lomfr:source>LOMFRv1.0</lomfr:source><lomfr:value>s'informer</lomfr:value></lomfr:activity>
+<lomfr:activity><lomfr:source>LOMFRv1.0</lomfr:source><lomfr:value>se former</lomfr:value></lomfr:activity>
+</educational><rights><cost><source>LOMv1.0</source><value>no</value></cost><copyrightAndOtherRestrictions><source>LOMv1.0</source><value>yes</value></copyrightAndOtherRestrictions></rights><classification><purpose><source>LOMv1.0</source><value>discipline</value></purpose><taxonPath><source><string language="fre">Nomenclature Scérén : Domaines disciplinaires et transversaux</string></source><taxon><id>SECECV</id><entry><string language="fre">éducation civique</string></entry></taxon><taxon><id>SECSVT</id><entry><string language="fre">SVT sciences de la vie et de la Terre</string></entry></taxon><taxon><id>SECGEO</id><entry><string language="fre">géographie</string></entry></taxon></taxonPath></classification><classification><purpose><source>LOMv1.0</source><value>educational level</value></purpose><taxonPath><source><string language="fre">Nomenclature Scérén : Niveaux d'enseignement et de formation</string></source><taxon><id>GT</id><entry><string language="fre">enseignement secondaire - voies générale et technologique</string></entry></taxon></taxonPath></classification><classification><purpose><source>SCOLOMFRv1.0</source><value>public cible détaillé</value></purpose><taxonPath><source><string language="fre">Nomenclature Scérén v2007 : Publics</string></source><taxon><id>ENS</id><entry><string language="fre">enseignant</string></entry></taxon></taxonPath></classification><classification><purpose><source>LOMv1.0</source><value>idea</value></purpose><taxonPath><source><string language="fre">thésaurus Motbis 2008</string></source><taxon><id>frCNDP12825</id><entry><string language="fre">milieu polaire</string></entry></taxon><taxon><id>frCNDP17511</id><entry><string language="fre">science météorologique</string></entry></taxon><taxon><id>frCNDP19045</id><entry><string language="fre">température : météorologie</string></entry></taxon></taxonPath></classification><classification><purpose><source>LOMv1.0</source><value>discipline</value></purpose><taxonPath><source><string language="fre">classification décimale Dewey</string></source><taxon><id>551.6</id></taxon><taxon><id>507.2</id></taxon></taxonPath></classification></lom>

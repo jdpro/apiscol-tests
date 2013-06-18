@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:lomfr="http://www.lom-fr.fr/xsd/LOMFR" xmlns:scolomfr="http://www.lom-fr.fr/xsd/SCOLOMFR" xsi:schemaLocation="http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/xsd/scolomfrv1.1/scolomfr.xsd">
+<general><identifier><catalog>URI</catalog><entry>http://ec.europa.eu/environment/urban/pdf/hancall_fr.pdf</entry></identifier><title><string language="fre">L'appel de Hanovre - 11 février 2000</string></title>
+<language>fre</language>
+<description><string language="fre">Appel lancé par les maires européens à l'aube du XXIe siècle. Contient des principes et valeurs pour l'action locale vers la durabilité. Met en avant le rôle prépondérant des maires européens.</string></description>
+<keyword><string language="fre">ville durable </string></keyword>
+<keyword><string language="fre"> durabilité</string></keyword>
+<coverage><string language="fre">21e siècle</string></coverage>
+<coverage><string language="fre">Europe</string></coverage>
+<aggregationLevel><source>LOMv1.0</source><value>1</value></aggregationLevel>
+</general><lifeCycle><status><source>LOMv1.0</source><value>final</value></status><contribute><role><source>LOMv1.0</source><value>publisher</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:Union Européenne
+END:VCARD ]]></entity><date><dateTime>2007-01-19</dateTime></date></contribute><contribute><role><source>LOMv1.0</source><value>validator</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Validé par institution hors éducation nationale
+N:Validé par institution hors éducation nationale
+END:VCARD ]]></entity><date/></contribute></lifeCycle><metaMetadata><identifier><catalog>URI</catalog><entry>http://www.educasources.education.fr/fiche-detaillee-87451.html</entry></identifier><contribute><role><source>LOMv1.0</source><value>creator</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:CRDP de l&apos;académie d&apos;Amiens
+END:VCARD ]]></entity><date><dateTime>2007-01-19</dateTime></date></contribute><contribute><role><source>LOMv1.0</source><value>validator</value></role><entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:Validateur Numéribase
+END:VCARD ]]></entity><date><dateTime>2012-02-14</dateTime></date></contribute><metadataSchema>SCOLOMFRv1.0</metadataSchema><language>fre</language></metaMetadata><technical><format>application/pdf</format>
+<size>54371</size>
+<location>http://ec.europa.eu/environment/urban/pdf/hancall_fr.pdf</location></technical><educational><intendedEndUserRole><source>LOMv1.0</source><value>teacher</value></intendedEndUserRole><intendedEndUserRole><source>LOMv1.0</source><value>learner</value></intendedEndUserRole><description><string language="fre">formation de l’enseignant</string></description>
+<lomfr:activity><lomfr:source>LOMFRv1.0</lomfr:source><lomfr:value>apprendre</lomfr:value></lomfr:activity>
+<lomfr:activity><lomfr:source>LOMFRv1.0</lomfr:source><lomfr:value>s'informer</lomfr:value></lomfr:activity>
+</educational><rights><cost><source>LOMv1.0</source><value>no</value></cost><copyrightAndOtherRestrictions><source>LOMv1.0</source><value>yes</value></copyrightAndOtherRestrictions><description><string language="fre">© Communautés européennes, 1995-2008. Reproduction autorisée, moyennant mention de la source, sauf spécification contraire.      Si la reproduction ou l'utilisation de données textuelles et multimédias (son, images, logiciels, etc.) sont soumises à autorisation préalable, cette autorisation annulera l'autorisation générale susmentionnée et indiquera clairement les éventuelles restrictions d'utilisation.</string></description>
+</rights><classification><purpose><source>LOMv1.0</source><value>discipline</value></purpose><taxonPath><source><string language="fre">Nomenclature Scérén : Domaines disciplinaires et transversaux</string></source><taxon><id>SECECV</id><entry><string language="fre">éducation civique</string></entry></taxon><taxon><id>SECGEO</id><entry><string language="fre">géographie</string></entry></taxon></taxonPath></classification><classification><purpose><source>LOMv1.0</source><value>educational level</value></purpose><taxonPath><source><string language="fre">Nomenclature Scérén : Niveaux d'enseignement et de formation</string></source><taxon><id>ES</id><entry><string language="fre">enseignement supérieur</string></entry></taxon><taxon><id>GTLY</id><entry><string language="fre">lycée</string></entry></taxon><taxon><id>GTCO</id><entry><string language="fre">collège</string></entry></taxon></taxonPath></classification><classification><purpose><source>SCOLOMFRv1.0</source><value>public cible détaillé</value></purpose><taxonPath><source><string language="fre">Nomenclature Scérén v2007 : Publics</string></source><taxon><id>APPETU</id><entry><string language="fre">étudiant</string></entry></taxon><taxon><id>ENSDIS</id><entry><string language="fre">enseignant des disciplines</string></entry></taxon></taxonPath></classification><classification><purpose><source>LOMv1.0</source><value>idea</value></purpose><taxonPath><source><string language="fre">thésaurus Motbis 2008</string></source><taxon><id>frCNDP05997</id><entry><string language="fre">développement durable</string></entry></taxon><taxon><id>frCNDP20261</id><entry><string language="fre">ville</string></entry></taxon></taxonPath></classification><classification><purpose><source>LOMv1.0</source><value>discipline</value></purpose><taxonPath><source><string language="fre">classification décimale Dewey</string></source><taxon><id>577</id></taxon><taxon><id>711.4</id></taxon></taxonPath></classification></lom>

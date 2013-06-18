@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:lomfr="http://www.lom-fr.fr/xsd/LOMFR" xmlns:scolomfr="http://www.lom-fr.fr/xsd/SCOLOMFR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/xsd/scolomfrv1.1/scolomfr.xsd">
+  <general>
+    <identifier>
+      <catalog />
+      <entry>http://localhost:8080/content/resource/6e40f6e3-1e5b-4a91-9925-dce0df504ad6?format=xml</entry>
+    </identifier>
+    <title>
+      <string language="fre">Les modes de cuissons : "sauter"</string>
+    </title>
+    <language>fre</language>
+    <description>
+      <string language="fre">Etre capable de déterminer les matériels adaptés à ce mode de cuisson, choisir les aliments et les corps gras appropriés, corréler la taille des matériels, la taille et/ou le nombre d'aliments à traiter. Réaliser une synthèse des choix déterminant la réussite.</string>
+    </description>
+    <keyword>
+      <string language="fre">sauter</string>
+    </keyword>
+    <keyword>
+      <string language="fre">cuire</string>
+    </keyword>
+    <keyword>
+      <string language="fre">cuisson</string>
+    </keyword>
+    <aggregationLevel>
+      <source>LOMv1.0</source>
+      <value>2</value>
+    </aggregationLevel>
+    <lomfr:documentType>
+      <lomfr:source>LOMFRv1.0</lomfr:source>
+      <lomfr:value>ressource interactive</lomfr:value>
+    </lomfr:documentType>
+    <scolomfr:generalResourceType>
+      <scolomfr:source>SCOLOMFRv1.1</scolomfr:source>
+      <scolomfr:value>présentation multimédia</scolomfr:value>
+    </scolomfr:generalResourceType>
+  </general>
+  <lifeCycle>
+    <status>
+      <source>LOMv1.0</source>
+      <value>final</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>publisher</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:CRDP Versailles
+END:VCARD]]></entity>
+      <date>
+        <dateTime>2012-10-16</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Nadiras, Laurent
+N:Nadiras, Laurent
+END:VCARD]]></entity>
+      <date>
+        <dateTime>2012-10-10</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Raynaud, Serge
+N:Raynaud, Serge
+END:VCARD]]></entity>
+      <date>
+        <dateTime>2012-10-10</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>graphical designer</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Couty, Anaïs
+N:Couty, Anaïs
+END:VCARD]]></entity>
+      <date>
+        <dateTime>2012-10-10</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>validator</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:IEN Hôtellerie restauration
+N:IEN Hôtellerie restauration
+END:VCARD]]></entity>
+      <date />
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>Apiscol :example</catalog>
+      <entry>http://localhost:8080/meta/cb6eba40-2686-42a5-8df5-64520149a58d</entry>
+    </identifier>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>creator</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Dornbusch, Joachim
+ORG:CRDP de l'académie de la Versailles
+END:VCARD]]></entity>
+      <date>
+        <dateTime>2012-10-16</dateTime>
+      </date>
+    </contribute>
+    <metadataSchema>SCOLOMFRv1.0</metadataSchema>
+    <language>fre</language>
+  </metaMetadata>
+  <technical>
+    <format>application/x-uniboard+zip</format>
+    <size>642</size>
+    <location>http://localhost:8080/content/resources/6/e/4/0f6e3-1e5b-4a91-9925-dce0df504ad6/Mode de cuisson sauter Cuisson sauter-01. Le contexte.ubz</location>
+    <requirement>
+      <orComposite>
+        <type>
+          <source>LOMv1.0</source>
+          <value>operating system</value>
+        </type>
+        <name>
+          <source>LOMv1.0</source>
+          <value>multi-os</value>
+        </name>
+      </orComposite>
+    </requirement>
+    <installationRemarks>
+      <string language="fre">Le fichier UBZ doit être téléchargé et importé dans le logiciel Open Sankore : dans le panneau "documents", choisissez "importer".</string>
+    </installationRemarks>
+    <otherPlatformRequirements>
+      <string language="fre"><![CDATA[Nécessite le logiciel Open Sankoré téléchargeable sur <a xmlns="http://www.w3.org/1999/xhtml" href="http://open-sankore.org/fr">le site open-sankore.org</a>]]></string>
+    </otherPlatformRequirements>
+  </technical>
+  <educational>
+    <intendedEndUserRole>
+      <source>LOMv1.0</source>
+      <value>teacher</value>
+    </intendedEndUserRole>
+    <intendedEndUserRole>
+      <source>LOMv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <learningResourceType>
+      <source>LOMFRv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <typicalLearningTime>
+      <duration>PT2H</duration>
+    </typicalLearningTime>
+    <context>
+      <source>LOMv1.0</source>
+      <value>school</value>
+    </context>
+    <context>
+      <source>LOMFRv1.0</source>
+      <value>enseignement secondaire</value>
+    </context>
+    <description>
+      <string language="fre">Exploiter les prérequis éventuels : pré-stage, découverte de l’entreprise.</string>
+    </description>
+    <description>
+      <string language="fre">Position du contexte (situation professionnelle)</string>
+    </description>
+    <language>fre</language>
+    <lomfr:activity>
+      <lomfr:source>LOMFRv1.0</lomfr:source>
+      <lomfr:value>apprendre</lomfr:value>
+    </lomfr:activity>
+    <scolomfr:place>
+      <scolomfr:source>SCOLOMFRv1.0</scolomfr:source>
+      <scolomfr:value>en atelier</scolomfr:value>
+    </scolomfr:place>
+    <scolomfr:educationalMethod>
+      <scolomfr:source>SCOLOMFRv1.1</scolomfr:source>
+      <scolomfr:value>en classe entière</scolomfr:value>
+    </scolomfr:educationalMethod>
+    <scolomfr:tool>
+      <scolomfr:source>SCOLOMFRv1.0</scolomfr:source>
+      <scolomfr:value>TBI</scolomfr:value>
+    </scolomfr:tool>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="fre">CC Paternité, pas d'utilisation commerciale</string>
+    </description>
+  </rights>
+  <relation />
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="fre">Nomenclature disciplines professionnelle</string>
+      </source>
+      <taxon>
+        <id>HRT</id>
+        <entry>
+          <string language="fre">Hotellerie restauration tourisme</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="fre">Diplômes</string>
+      </source>
+      <taxon>
+        <id>40022106</id>
+        <entry>
+          <string language="fre">BAC PRO Cuisine</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <!--<taxonPath>  
+			<source>
+				<string language="fre">Diplômes</string>
+			</source>
+			<taxon>
+				<id>40033403</id>
+				<entry>
+					<string language="fre">BAC PRO Commercialisation et services en restauration</string>
+				</entry>
+			</taxon>
+		</taxonPath>
+		<taxonPath>  
+			<source>
+				<string language="fre">Diplômes</string>
+			</source>
+			<taxon>
+				<id>40033402</id>
+				<entry>
+					<string language="fre">BAC PRO Restauration</string>
+				</entry>
+			</taxon>
+		</taxonPath>-->
+  </classification>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational level</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="fre">scolomfr-voc-022</string>
+      </source>
+      <taxon>
+        <id>scolomfr-voc-022-num-027</id>
+        <entry>
+          <string language="fre">2de professionnelle</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>scolomfr-voc-022-num-087</id>
+        <entry>
+          <string language="fre">lycée professionnel</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="fre">Modules Elémentaires de formation</string>
+      </source>
+      <taxon>
+        <id>2472210631</id>
+        <entry>
+          <string language="fre">2ndpro cuisine</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <!--<taxonPath>  
+			<source>
+				<string language="fre">Modules Elémentaires de formation</string>
+			</source>
+			<taxon>
+				<id>2473340331</id>
+				<entry>
+					<string language="fre">2ndpro commerc. services en restauration</string>
+				</entry>
+			</taxon>
+		</taxonPath>
+		<taxonPath>  
+			<source>
+				<string language="fre">Modules Elémentaires de formation</string>
+			</source>
+			<taxon>
+				<id>2473340231</id>
+				<entry>
+					<string language="fre">2nde pro restauration</string>
+				</entry>
+			</taxon>
+		</taxonPath>-->
+  </classification>
+  <classification>
+    <purpose>
+      <source>SCOLOMFRv1.0</source>
+      <value>public cible détaillé</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="fre">scolomfr-voc-021</string>
+      </source>
+      <taxon>
+        <id>scolomfr-voc-021-num-00092</id>
+        <entry>
+          <string language="fre">professeur de lycée</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>idea</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="fre">Motbis 2012</string>
+      </source>
+      <taxon>
+        <id>xxxxx</id>
+        <entry>
+          <string language="fre">mode de cuisson</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+  <relation>
+    <kind>
+      <source>SCOLOMFRv1.0</source>
+      <value>a pour aperçu</value>
+    </kind>
+    <resource>
+      <identifier>URI</identifier>
+      <entry>http://localhost:8080/content/previews/6/e/4/0f6e3-1e5b-4a91-9925-dce0df504ad6/index.html</entry>
+    </resource>
+  </relation>
+  <relation>
+    <kind>
+      <source>SCOLOMFRv1.0</source>
+      <value>a pour vignette</value>
+    </kind>
+    <resource>
+      <identifier>URI</identifier>
+      <entry>http://localhost:8080/thumbs/files/a/a/8/537f8-bdd7-4034-813e-a93ab6a29627.png</entry>
+    </resource>
+  </relation>
+</lom>

@@ -1,0 +1,127 @@
+<add xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xmlns:lomfr="http://www.lom-fr.fr/xsd/LOMFR" xmlns:scolomfr="http://www.lom-fr.fr/xsd/SCOLOMFR"><doc>
+	
+		
+		<field name="general.title">
+				Les modes de cuissons : "sauter"
+			</field>
+		<field name="general.language">fre</field>
+		<field name="general.description">Etre capable de déterminer les matériels
+				adaptés à ce mode de cuisson, choisir les aliments et les corps gras
+				appropriés, corréler la taille des matériels, la taille et/ou le
+				nombre d'aliments à traiter. Réaliser une synthèse des choix
+				déterminant la réussite.
+			</field>
+		<field name="general.keyword">sauter</field>
+		<field name="general.keyword">cuire</field>
+		<field name="general.keyword">cuisson</field>
+		
+			LOMv1.0
+			2
+		
+		
+			LOMFRv1.0
+			ressource interactive
+		
+		<field name="general.generalresourcetype">présentation multimédia</field>
+	
+	
+		<field name="lifecycle.status">final</field>
+		<field name="lifecycle.contributor.publisher">BEGIN:VCARD
+VERSION:3.0
+ORG:CRDP Versailles
+END:VCARD </field><field name="lifecycle.date.publisher">2012-10-16T00:00:00Z</field>
+		<field name="lifecycle.contributor.author">BEGIN:VCARD
+VERSION:3.0
+FN:Nadiras, Laurent
+N:Nadiras, Laurent
+ORG:CRDP Versailles
+END:VCARD </field><field name="lifecycle.date.author">2012-10-10T00:00:00Z</field>
+		<field name="lifecycle.contributor.author">BEGIN:VCARD
+VERSION:3.0
+FN:Raynaud, Serge
+N:Raynaud, Serge
+ORG:CRDP Versailles
+END:VCARD </field><field name="lifecycle.date.author">2012-10-10T00:00:00Z</field>
+		<field name="lifecycle.contributor.graphical designer">BEGIN:VCARD
+VERSION:3.0
+FN:Couty, Anaïs
+N:Couty, Anaïs
+ORG:CRDP Versailles
+END:VCARD </field><field name="lifecycle.date.graphical designer">2012-10-10T00:00:00Z</field>
+		<field name="lifecycle.contributor.validator">BEGIN:VCARD
+VERSION:3.0
+FN:IEN Hôtellerie restauration
+N:IEN Hôtellerie restauration
+ORG:CRDP Versailles
+END:VCARD </field>
+	
+	
+		<field name="id">http://www.apiscol.fr/meta/99060937-2a41-4d3a-bff2-9b031dc06875
+			</field>
+		<field name="metameta.contributor.creator">BEGIN:VCARD
+VERSION:3.0
+FN:Dornbusch, Joachim
+ORG:CRDP Versailles
+END:VCARD </field>
+		
+		
+	
+	
+		<field name="technical.format"></field>
+		<field name="technical.size">0</field>
+		
+		
+			
+				
+					LOMv1.0
+					operating system
+				
+				
+					LOMv1.0
+					multi-os
+				
+			
+		
+		<field name="technical.installationremarks">Le fichier UBZ doit être téléchargé et
+				importé dans le logiciel Open Sankore : dans le panneau "documents",
+				choisissez "importer".</field>
+		<field name="technical.otherplatformrequirements">Nécessite le logiciel Open Sankoré téléchargeable sur &lt;a xmlns="http://www.w3.org/1999/xhtml" href="http://open-sankore.org/fr"&gt;le site open-sankore.org&lt;/a&gt;
+			</field>
+	
+	
+
+		<field name="educational.intendedenduserrole">teacher</field>
+		<field name="educational.intendedenduserrole">learner</field>
+		<field name="educational.learningresourcetype">lecture</field>
+		<field name="educational.typicallearningtime">2012-12-12T02:00:00Z</field>
+		<field name="educational.context">school</field>
+		<field name="educational.context">enseignement secondaire</field>
+
+		<field name="educational.description">Exploiter les prérequis éventuels :
+				pré-stage, découverte de l’entreprise.</field>
+		<field name="educational.description">Position du contexte (situation
+				professionnelle)</field>
+		<field name="educational.language">fre</field>
+		<field name="educational.activity">apprendre</field>
+		<field name="educational.place">en atelier</field>
+		<field name="educational.educationalmethod">en classe entière</field>
+		<field name="educational.tool">TBI</field>
+	
+	
+		<field name="rights.costs">false</field>
+		<field name="rights.copyrightandotherrestrictions">true</field>
+		<field name="rights.description">CC Paternité, pas d'utilisation commerciale
+			</field>
+	
+	
+	
+	<field name="discipline-taxon">Nomenclature disciplines professionnelle
+				!_!HRT(__Hotellerie restauration tourisme__)</field><field name="discipline-taxon">Diplômes!_!40022106(__BAC PRO Cuisine__)</field>
+	<field name="educational_level-taxon">scolomfr-voc-022
+				!_!scolomfr-voc-022-num-087(__lycée professionnel__)</field><field name="educational_level-taxon">scolomfr-voc-022
+				!_!scolomfr-voc-022-num-087::^|^::scolomfr-voc-022-num-027(__2de professionnelle__)</field><field name="educational_level-taxon">scolomfr-voc-022
+				!_!scolomfr-voc-022-num-087::^|^::scolomfr-voc-022-num-027::^|^::scolomfr-voc-022-num-028(__2de professionnelle branche bis__)</field><field name="educational_level-taxon">scolomfr-voc-022
+				!_!scolomfr-voc-022-num-087::^|^::scolomfr-voc-022-num-027::^|^::scolomfr-voc-022-num-028::^|^::scolomfr-voc-022-num-032(__2de professionnelle branche ter__)</field><field name="educational_level-taxon">Modules Elémentaires de formation!_!2472210631(__2ndpro cuisine__)</field>
+	<field name="public_cible_détaillé-taxon">scolomfr-voc-021!_!scolomfr-voc-021-num-00092(__professeur de lycée__)</field>
+	<field name="idea-taxon">Motbis 2012!_!xxxxx(__mode de cuisson__)</field>
+</doc></add>
