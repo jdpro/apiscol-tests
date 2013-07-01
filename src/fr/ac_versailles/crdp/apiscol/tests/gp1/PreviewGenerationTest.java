@@ -105,7 +105,7 @@ public class PreviewGenerationTest extends ApiScolTests {
 					+ htmlElement.asXml(), htmlElement.getAttribute("src")
 					.endsWith(".png"));
 		}
-		deleteResource(newResourcePage);
+		deleteResource(page2);
 		XmlPage newMetadataPage = getMetadata(metadataLinkLocation, false);
 		deleteMetadataEntry(metadataLinkLocation,
 				getAtomUpdatedField(newMetadataPage));

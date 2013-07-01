@@ -43,8 +43,9 @@ public class SynchronisationTest1 extends ApiScolTests {
 				"text/html");
 		String editUri = getAtomLinkLocation(newResourcePage, "edit",
 				"application/atom+xml");
+		String eTag2 = getAtomUpdatedField(page2);
 		XmlPage sendingMetaResponsePage = sendMetaForResource(editUri,
-				metadataLinkLocation);
+				metadataLinkLocation, eTag2);
 		String mainFileUrl = getFileDownloadUrl(getMainFileForRessource(sendingMetaResponsePage),
 				sendingMetaResponsePage);
 		String metaLocationRenewed = getAtomLinkLocation(

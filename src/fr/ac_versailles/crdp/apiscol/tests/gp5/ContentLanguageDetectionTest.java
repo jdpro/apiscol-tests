@@ -53,14 +53,14 @@ public class ContentLanguageDetectionTest extends ApiScolTests {
 		String urn = getAtomId(newResourcePage);
 		String editUri = getEditMediaUri(newResourcePage);
 		String eTag = getAtomUpdatedField(newResourcePage);
-		postFileDocument(editUri, urn, filePath, eTag);
+		XmlPage page2 = postFileDocument(editUri, urn, filePath, eTag);
 		waitDuring(5000);
 		XmlPage page3 = askForResourceRepresentation(metadataLinkLocation);
 		String lomLocation = getAtomLinkLocation(page3, "describedby",
 				"application/lom+xml");
 		XmlPage lomDocument = getPage(lomLocation);
 		testResourceLanguageIs(lomDocument, language);
-		deleteResource(newResourcePage);
+		deleteResource(page2);
 
 	}
 

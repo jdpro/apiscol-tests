@@ -654,11 +654,12 @@ public class ApiScolTests {
 	}
 
 	protected XmlPage sendMetaForResource(String editUri,
-			String metadataLinkLocation) {
+			String metadataLinkLocation, String etag) {
 		WebRequest request = new WebRequest(getServiceUrl(editUri, null),
 				HttpMethod.PUT);
 		request.setAdditionalHeader("Authorization", authorizationToken);
 		request.setAdditionalHeader("Accept", "application/xml");
+		request.setAdditionalHeader("If-Match", etag);
 		request.setRequestBody("mdid=" + metadataLinkLocation);
 		request.setEncodingType(FormEncodingType.URL_ENCODED);
 		XmlPage page = null;
