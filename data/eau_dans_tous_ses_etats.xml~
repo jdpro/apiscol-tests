@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ltsc.ieee.org/xsd/LOM"
+	xmlns:lomfr="http://www.lom-fr.fr/xsd/LOMFR" xmlns:scolomfr="http://www.lom-fr.fr/xsd/SCOLOMFR"
+	xsi:schemaLocation="http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/xsd/scolomfrv1.1/scolomfr.xsd">
+	<general>
+		<identifier>
+			<catalog>URI</catalog>
+			<entry>http://www.evolution-of-life.com/fr/explorer/simulation/fiche/water-in-all-its-states.html
+			</entry>
+		</identifier>
+		<title>
+			<string language="fre">L'eau dans tous ses états</string>
+		</title>
+		<language>fre</language>
+		<language>eng</language>
+		<language>ger</language>
+		<description>
+			<string language="fre">Simulation interactive du site "Evolution of
+				life" proposant des animations sur "L'eau dans tous ses états" : la
+				terre dans le système solaire, la température, la pression
+				atmosphérique.</string>
+		</description>
+		<coverage>
+			<string language="fre">21e siècle</string>
+		</coverage>
+		<coverage>
+			<string language="fre">région du monde</string>
+		</coverage>
+		<aggregationLevel>
+			<source>LOMv1.0</source>
+			<value>2</value>
+		</aggregationLevel>
+	</general>
+	<lifeCycle>
+		<status>
+			<source>LOMv1.0</source>
+			<value>final</value>
+		</status>
+		<contribute>
+			<role>
+				<source>LOMv1.0</source>
+				<value>publisher</value>
+			</role>
+			<entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:CNDP
+END:VCARD ]]></entity>
+			<date>
+				<dateTime>2010-04-08</dateTime>
+			</date>
+		</contribute>
+		<contribute>
+			<role>
+				<source>LOMFRv1.0</source>
+				<value>contributeur</value>
+			</role>
+			<entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Mahe, Yannick
+N:Mahe, Yannick
+END:VCARD ]]></entity>
+			<date />
+		</contribute>
+		<contribute>
+			<role>
+				<source>LOMFRv1.0</source>
+				<value>contributeur</value>
+			</role>
+			<entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Cussonneau, Thomas
+N:Cussonneau, Thomas
+END:VCARD ]]></entity>
+			<date />
+		</contribute>
+		<contribute>
+			<role>
+				<source>LOMFRv1.0</source>
+				<value>contributeur</value>
+			</role>
+			<entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Mahe, Yannick
+N:Mahe, Yannick
+END:VCARD ]]></entity>
+			<date />
+		</contribute>
+		<contribute>
+			<role>
+				<source>LOMFRv1.0</source>
+				<value>contributeur</value>
+			</role>
+			<entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Macagno, Gilles
+N:Macagno, Gilles
+END:VCARD ]]></entity>
+			<date />
+		</contribute>
+		<contribute>
+			<role>
+				<source>LOMFRv1.0</source>
+				<value>contributeur</value>
+			</role>
+			<entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:André, Adeline
+N:André, Adeline
+END:VCARD ]]></entity>
+			<date />
+		</contribute>
+		<contribute>
+			<role>
+				<source>LOMFRv1.0</source>
+				<value>contributeur</value>
+			</role>
+			<entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:CNRS
+N:CNRS
+END:VCARD ]]></entity>
+			<date />
+		</contribute>
+		<contribute>
+			<role>
+				<source>LOMFRv1.0</source>
+				<value>contributeur</value>
+			</role>
+			<entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:CNDP
+N:CNDP
+END:VCARD ]]></entity>
+			<date />
+		</contribute>
+		<contribute>
+			<role>
+				<source>LOMv1.0</source>
+				<value>validator</value>
+			</role>
+			<entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:Instance nationale
+N:Instance nationale
+END:VCARD ]]></entity>
+			<date />
+		</contribute>
+	</lifeCycle>
+	<metaMetadata>
+		<identifier>
+			<catalog>URI</catalog>
+			<entry>http://www.educasources.education.fr/fiche-detaillee-147927.html
+			</entry>
+		</identifier>
+		<contribute>
+			<role>
+				<source>LOMv1.0</source>
+				<value>creator</value>
+			</role>
+			<entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:CNDP
+END:VCARD ]]></entity>
+			<date>
+				<dateTime>2010-04-08</dateTime>
+			</date>
+		</contribute>
+		<contribute>
+			<role>
+				<source>LOMv1.0</source>
+				<value>validator</value>
+			</role>
+			<entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:Validateur Numéribase
+END:VCARD ]]></entity>
+			<date>
+				<dateTime>2010-04-27</dateTime>
+			</date>
+		</contribute>
+		<metadataSchema>SCOLOMFRv1.0</metadataSchema>
+		<language>fre</language>
+	</metaMetadata>
+	<technical>
+		<format>text/html</format>
+		<location>http://www.evolution-of-life.com/fr/explorer/simulation/fiche/water-in-all-its-states.html
+		</location>
+	</technical>
+	<educational>
+		<learningResourceType>
+			<source>LOMFRv1.0</source>
+			<value>animation</value>
+		</learningResourceType>
+		<intendedEndUserRole>
+			<source>LOMv1.0</source>
+			<value>teacher</value>
+		</intendedEndUserRole>
+		<intendedEndUserRole>
+			<source>LOMv1.0</source>
+			<value>learner</value>
+		</intendedEndUserRole>
+		<context>
+			<source>LOMFRv1.0</source>
+			<value>enseignement secondaire</value>
+		</context>
+		<description>
+			<string language="fre">en classe</string>
+		</description>
+		<description>
+			<string language="fre">elève en autonomie</string>
+		</description>
+		<lomfr:activity>
+			<lomfr:source>LOMFRv1.0</lomfr:source>
+			<lomfr:value>apprendre</lomfr:value>
+		</lomfr:activity>
+		<lomfr:activity>
+			<lomfr:source>LOMFRv1.0</lomfr:source>
+			<lomfr:value>observer</lomfr:value>
+		</lomfr:activity>
+	</educational>
+	<rights>
+		<cost>
+			<source>LOMv1.0</source>
+			<value>no</value>
+		</cost>
+		<copyrightAndOtherRestrictions>
+			<source>LOMv1.0</source>
+			<value>yes</value>
+		</copyrightAndOtherRestrictions>
+		<description>
+			<string language="fre">Propriété intellectuelle En outre, les
+				informations utilisées ne doivent l'être qu'à des fins personnelles,
+				associatives ou professionnelles ; toute diffusion ou utilisation à
+				des fins commerciales ou publicitaires étant exclues.Le CNDP se
+				réserve le droit d'engager des poursuites le cas échéant.                                                                   </string>
+		</description>
+	</rights>
+	<relation>
+		<kind>
+			<source>LOMv1.0</source>
+			<value>ispartof</value>
+		</kind>
+		<resource>
+			<identifier>
+				<catalog>URI</catalog>
+				<entry>http://www.evolution-of-life.com</entry>
+			</identifier>
+			<description>
+				<string language="fre">Site Évolution-of-life</string>
+			</description>
+		</resource>
+	</relation>
+	<classification>
+		<purpose>
+			<source>LOMv1.0</source>
+			<value>discipline</value>
+		</purpose>
+		<taxonPath>
+			<source>
+				<string language="fre">Nomenclature Scérén : Domaines
+					disciplinaires et transversaux</string>
+			</source>
+			<taxon>
+				<id>PRISCI</id>
+				<entry>
+					<string language="fre">découvrir le monde - éducation scientifique
+					</string>
+				</entry>
+			</taxon>
+			<taxon>
+				<id>SECSVT</id>
+				<entry>
+					<string language="fre">SVT sciences de la vie et de la Terre
+					</string>
+				</entry>
+			</taxon>
+		</taxonPath>
+	</classification>
+	<classification>
+		<purpose>
+			<source>LOMv1.0</source>
+			<value>educational level</value>
+		</purpose>
+		<taxonPath>
+			<source>
+				<string language="fre">Nomenclature Scérén : Niveaux d'enseignement
+					et de formation</string>
+			</source>
+			<taxon>
+				<id>EPEE</id>
+				<entry>
+					<string language="fre">école élémentaire</string>
+				</entry>
+			</taxon>
+			<taxon>
+				<id>GT</id>
+				<entry>
+					<string language="fre">enseignement secondaire - voies générale et
+						technologique</string>
+				</entry>
+			</taxon>
+		</taxonPath>
+	</classification>
+	<classification>
+		<purpose>
+			<source>SCOLOMFRv1.0</source>
+			<value>public cible détaillé</value>
+		</purpose>
+		<taxonPath>
+			<source>
+				<string language="fre">Nomenclature Scérén v2007 : Publics</string>
+			</source>
+			<taxon>
+				<id>APPELE</id>
+				<entry>
+					<string language="fre">élève</string>
+				</entry>
+			</taxon>
+			<taxon>
+				<id>ENSDIS</id>
+				<entry>
+					<string language="fre">enseignant des disciplines</string>
+				</entry>
+			</taxon>
+			<taxon>
+				<id>PUB</id>
+				<entry>
+					<string language="fre">autre public</string>
+				</entry>
+			</taxon>
+		</taxonPath>
+	</classification>
+	<classification>
+		<purpose>
+			<source>LOMv1.0</source>
+			<value>idea</value>
+		</purpose>
+		<taxonPath>
+			<source>
+				<string language="fre">thésaurus Motbis 2008</string>
+			</source>
+			<taxon>
+				<id>frCNDP06584</id>
+				<entry>
+					<string language="fre">eau</string>
+				</entry>
+			</taxon>
+			<taxon>
+				<id>frCNDP15591</id>
+				<entry>
+					<string language="fre">pression atmosphérique</string>
+				</entry>
+			</taxon>
+			<taxon>
+				<id>frCNDP18098</id>
+				<entry>
+					<string language="fre">solidification</string>
+				</entry>
+			</taxon>
+			<taxon>
+				<id>frCNDP18693</id>
+				<entry>
+					<string language="fre">système solaire</string>
+				</entry>
+			</taxon>
+			<taxon>
+				<id>frCNDP18936</id>
+				<entry>
+					<string language="fre">technique physicochimique</string>
+				</entry>
+			</taxon>
+		</taxonPath>
+	</classification>
+	<classification>
+		<purpose>
+			<source>LOMv1.0</source>
+			<value>discipline</value>
+		</purpose>
+		<taxonPath>
+			<source>
+				<string language="fre">classification décimale Dewey</string>
+			</source>
+			<taxon>
+				<id>523.4</id>
+			</taxon>
+			<taxon>
+				<id>553.7</id>
+			</taxon>
+		</taxonPath>
+	</classification>
+</lom>

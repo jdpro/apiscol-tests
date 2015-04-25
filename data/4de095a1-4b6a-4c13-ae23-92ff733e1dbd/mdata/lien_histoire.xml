@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:lomfr="http://www.lom-fr.fr/xsd/LOMFR" xmlns:scolomfr="http://www.lom-fr.fr/xsd/SCOLOMFR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/xsd/scolomfrv1.1/scolomfr.xsd">
+  <general>
+    <identifier>
+      <catalog />
+      <entry></entry>
+    </identifier>
+    <title>
+      <string language="fre">Lien avec l'histoire et le latin</string>
+    </title>
+    <language>fre</language>
+    <description>
+      <string language="fre">Situer dans l'Histoire où se situe les inventions en sciences. Faire un lien avec le latin pour comprendre l'origine de termes scientifiques</string>
+    </description>
+    <keyword>
+      <string language="fre">Faraday</string>
+    </keyword>
+    <keyword>
+      <string language="fre">Arrhenius</string>
+    </keyword>
+    <keyword>
+      <string language="fre">Rutherford</string>
+    </keyword>
+    <keyword>
+      <string language="fre">ion</string>
+    </keyword>
+<keyword>
+      <string language="fre">tour Eiffel</string>
+    </keyword>
+<keyword>
+      <string language="fre">Victor Hugo</string>
+    </keyword>
+<keyword>
+      <string language="fre">aqua</string>
+    </keyword>
+<keyword>
+      <string language="fre">histoire</string>
+    </keyword>
+<keyword>
+      <string language="fre">latin</string>
+    </keyword>
+    <aggregationLevel>
+      <source>LOMv1.0</source>
+      <value>2</value>
+    </aggregationLevel>
+    <lomfr:documentType>
+      <lomfr:source>LOMFRv1.0</lomfr:source>
+      <lomfr:value>texte</lomfr:value>
+    </lomfr:documentType>
+    <scolomfr:generalResourceType>
+      <scolomfr:source>SCOLOMFRv1.1</scolomfr:source>
+      <scolomfr:value>guide</scolomfr:value>
+    </scolomfr:generalResourceType>
+  </general>
+  <lifeCycle>
+    <status>
+      <source>LOMv1.0</source>
+      <value>final</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>publisher</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+ORG:CRDP Versailles
+END:VCARD]]></entity>
+      <date>
+        <dateTime>2012-10-16</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:MOREAU, Philippe
+N:MOREAU, Philippe
+END:VCARD]]></entity>
+      <date>
+        <dateTime>2012-10-10</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:MOREAU, Philippe
+N:MOREAU, Philippe
+END:VCARD]]></entity>
+      <date>
+        <dateTime>2012-10-10</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>graphical designer</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:MOREAU, Philippe
+N:MOREAU, Philippe
+END:VCARD]]></entity>
+      <date>
+        <dateTime>2012-10-10</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>validator</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:CRDP MOREAU, Philippe
+N:CRDP MOREAU, Philippe
+END:VCARD]]></entity>
+      <date />
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>Apiscol :example</catalog>
+      <entry></entry>
+    </identifier>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>creator</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+FN:MOREAU, Philippe
+ORG:CRDP de l'académie de la Versailles
+END:VCARD]]></entity>
+      <date>
+        <dateTime>2012-10-16</dateTime>
+      </date>
+    </contribute>
+    <metadataSchema>SCOLOMFRv1.0</metadataSchema>
+    <language>fre</language>
+  </metaMetadata>
+  <technical>
+    <format>application/x-uniboard+zip</format>
+    <size>642</size>
+    <location></location>
+    <requirement>
+      <orComposite>
+        <type>
+          <source>LOMv1.0</source>
+          <value>operating system</value>
+        </type>
+        <name>
+          <source>LOMv1.0</source>
+          <value>multi-os</value>
+        </name>
+      </orComposite>
+    </requirement>
+    <installationRemarks>
+      <string language="fre">Le fichier UBZ doit être téléchargé et importé dans le logiciel Open Sankore : dans le panneau "documents", choisissez "importer".</string>
+    </installationRemarks>
+    <otherPlatformRequirements>
+      <string language="fre"><![CDATA[Nécessite le logiciel Open Sankoré téléchargeable sur <a xmlns="http://www.w3.org/1999/xhtml" href="http://open-sankore.org/fr">le site open-sankore.org</a>]]></string>
+    </otherPlatformRequirements>
+  </technical>
+  <educational>
+    <intendedEndUserRole>
+      <source>LOMv1.0</source>
+      <value>teacher</value>
+    </intendedEndUserRole>
+    <intendedEndUserRole>
+      <source>LOMv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <learningResourceType>
+      <source>LOMFRv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <typicalLearningTime>
+      <duration>PT2H</duration>
+    </typicalLearningTime>
+    <context>
+      <source>LOMv1.0</source>
+      <value>school</value>
+    </context>
+    <context>
+      <source>LOMFRv1.0</source>
+      <value>enseignement secondaire</value>
+    </context>
+    <description>
+      <string language="fre"></string>
+    </description>
+    <description>
+      <string language="fre"></string>
+    </description>
+    <language>fre</language>
+    <lomfr:activity>
+      <lomfr:source>LOMFRv1.0</lomfr:source>
+      <lomfr:value>apprendre</lomfr:value>
+    </lomfr:activity>
+    <scolomfr:place>
+      <scolomfr:source>SCOLOMFRv1.0</scolomfr:source>
+      <scolomfr:value>en atelier</scolomfr:value>
+    </scolomfr:place>
+    <scolomfr:educationalMethod>
+      <scolomfr:source>SCOLOMFRv1.1</scolomfr:source>
+      <scolomfr:value>en classe entière</scolomfr:value>
+    </scolomfr:educationalMethod>
+    <scolomfr:tool>
+      <scolomfr:source>SCOLOMFRv1.0</scolomfr:source>
+      <scolomfr:value>TBI</scolomfr:value>
+    </scolomfr:tool>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="fre">CC Paternité, pas d'utilisation commerciale</string>
+    </description>
+  </rights>
+  <relation />
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="fre">Nomenclature disciplines professionnelle</string>
+      </source>
+      <taxon>
+        <id>ScPhys</id>
+        <entry>
+          <string language="fre">Sciences Physiques</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="fre"></string>
+      </source>
+      <taxon>
+        <id></id>
+        <entry>
+          <string language="fre"></string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    
+  </classification>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational level</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="fre">scolomfr-voc-022</string>
+      </source>
+      <taxon>
+        <id>scolomfr-voc-022-num-027</id>
+        <entry>
+          <string language="fre">troisième</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>scolomfr-voc-022-num-087</id>
+        <entry>
+          <string language="fre">collège/string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="fre"></string>
+      </source>
+      <taxon>
+        <id>2472210631</id>
+        <entry>
+          <string language="fre"></string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <!--<taxonPath>  
+			<source>
+				<string language="fre">Modules Elémentaires de formation</string>
+			</source>
+			<taxon>
+				<id>2473340331</id>
+				<entry>
+					<string language="fre">2ndpro commerc. services en restauration</string>
+				</entry>
+			</taxon>
+		</taxonPath>
+		<taxonPath>  
+			<source>
+				<string language="fre">Modules Elémentaires de formation</string>
+			</source>
+			<taxon>
+				<id>2473340231</id>
+				<entry>
+					<string language="fre">2nde pro restauration</string>
+				</entry>
+			</taxon>
+		</taxonPath>-->
+  </classification>
+  <classification>
+    <purpose>
+      <source>SCOLOMFRv1.0</source>
+      <value>public cible détaillé</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="fre">scolomfr-voc-021</string>
+      </source>
+      <taxon>
+        <id>scolomfr-voc-021-num-00092</id>
+        <entry>
+          <string language="fre">professeur de collège</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>idea</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="fre"></string>
+      </source>
+      <taxon>
+        <id>xxxxx</id>
+        <entry>
+          <string language="fre"></string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+  <relation>
+    <kind>
+      <source>SCOLOMFRv1.0</source>
+      <value>a pour aperçu</value>
+    </kind>
+    <resource>
+      <identifier>URI</identifier>
+      <entry></entry>
+    </resource>
+  </relation>
+  <relation>
+    <kind>
+      <source>SCOLOMFRv1.0</source>
+      <value>a pour vignette</value>
+    </kind>
+    <resource>
+      <identifier>URI</identifier>
+      <entry></entry>
+    </resource>
+  </relation>
+</lom>
