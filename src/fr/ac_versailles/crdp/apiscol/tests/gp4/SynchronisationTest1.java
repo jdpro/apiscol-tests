@@ -28,9 +28,6 @@ public class SynchronisationTest1 extends ApiScolTests {
 	public void testPostingRdfDocumentWithMetadataAndChangingMeta() {
 		URL url = getServiceUrl("/edit/meta", editionServiceBaseUrl);
 		assertTrue("The Url must be valid", url != null);
-		assertTrue(
-				"An authorization token was not gotten with this credentials",
-				getAuthorizationToken(url, LOGIN, PASSWORD));
 
 		XmlPage newResourcePage = getNewResourcePage("bad-metadata");
 		String urn = getAtomId(newResourcePage);

@@ -29,9 +29,6 @@ public class MetadataTest extends ApiScolTests {
 	public void testPostingDocuments() {
 		URL url = getServiceUrl("/edit/meta", editionServiceBaseUrl);
 		assertTrue("The Url must be valid", url != null);
-		assertTrue(
-				"An authorization token was not gotten with this credentials",
-				getAuthorizationToken(url, LOGIN, PASSWORD));
 		postDocumentWithSeveralFormats(url);
 	}
 
@@ -39,9 +36,6 @@ public class MetadataTest extends ApiScolTests {
 	public void testMaintenance() {
 		URL url = getServiceUrl("/edit/meta", editionServiceBaseUrl);
 		assertTrue("The Url must be valid", url != null);
-		assertTrue(
-				"An authorization token was not gotten with this credentials",
-				getAuthorizationToken(url, LOGIN, PASSWORD));
 
 		XmlPage result1 = postMaintenanceRequest("meta", "optimization");
 		testReportDocumentStatusIsDone(result1);

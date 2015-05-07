@@ -9,6 +9,7 @@ import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.gargoylesoftware.htmlunit.html.DomNodeList;
@@ -18,7 +19,7 @@ import com.gargoylesoftware.htmlunit.xml.XmlPage;
 
 import fr.ac_versailles.crdp.apiscol.tests.ApiScolTests;
 
-//@Ignore
+@Ignore
 public class PreviewGenerationTest extends ApiScolTests {
 	@Before
 	public void initialize() {
@@ -45,9 +46,6 @@ public class PreviewGenerationTest extends ApiScolTests {
 			String resourceFileName) {
 		URL url = getServiceUrl("/edit/meta", editionServiceBaseUrl);
 		assertTrue("The Url must be valid", url != null);
-		assertTrue(
-				"An authorization token was not gotten with this credentials",
-				getAuthorizationToken(url, LOGIN, PASSWORD));
 		XmlPage metadataPage = postMetadataDocument(metadataFileName, url);
 		String metadataLinkLocation = getAtomLinkLocation(metadataPage, "self",
 				"text/html");

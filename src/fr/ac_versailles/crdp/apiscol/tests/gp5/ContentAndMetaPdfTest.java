@@ -29,9 +29,6 @@ public class ContentAndMetaPdfTest extends ApiScolTests {
 	public void testPostingPdfDocumentWithMetadata() {
 		URL url = getServiceUrl("/edit/meta", editionServiceBaseUrl);
 		assertTrue("The Url must be valid", url != null);
-		assertTrue(
-				"An authorization token was not gotten with this credentials",
-				getAuthorizationToken(url, LOGIN, PASSWORD));
 		XmlPage page = postMetadataDocument("appel-hanovre-87451.xml", url);
 		String metadataLinkLocation = getAtomLinkLocation(page, "self",
 				"text/html");
@@ -45,17 +42,18 @@ public class ContentAndMetaPdfTest extends ApiScolTests {
 		testAtomDocumentTitleIs(titleString, page3);
 		String summaryExtract = "Appel lancé par les maires européens à l'aube du XXIe siècle. Contient des principes et valeurs pour l'action locale vers la durabilité. Met en avant le rôle prépondérant des maires européens";
 		testAtomDocumentSummaryContains(summaryExtract, page3);
-		waitDuring(45000);
-		XmlPage page4 = getThumbsSuggestionForMetaId(metadataLinkLocation);		
-		String firstThumbSuggestionUri = getFirstThumbSuggestionUri(page4);
-		assertTrue("The first thumb suggestion may not be empty for metadata "
-				+ metadataLinkLocation,
-				StringUtils.isNotEmpty(firstThumbSuggestionUri));
-		XmlPage page5 = chooseThumbForMetadataId(metadataLinkLocation,
-				firstThumbSuggestionUri, getThumbEtag(page4));
-		String thumbUri = testDefaultThumbHasuri(page5);
-		XmlPage page6 = getThumbForMetadataId(metadataLinkLocation);
-		testThumbUriIs(page6, thumbUri, metadataLinkLocation);
+		// inutile si pas previews
+		// waitDuring(45000);
+		// XmlPage page4 = getThumbsSuggestionForMetaId(metadataLinkLocation);
+		// String firstThumbSuggestionUri = getFirstThumbSuggestionUri(page4);
+		// assertTrue("The first thumb suggestion may not be empty for metadata "
+		// + metadataLinkLocation,
+		// StringUtils.isNotEmpty(firstThumbSuggestionUri));
+		// XmlPage page5 = chooseThumbForMetadataId(metadataLinkLocation,
+		// firstThumbSuggestionUri, getThumbEtag(page4));
+		// String thumbUri = testDefaultThumbHasuri(page5);
+		// XmlPage page6 = getThumbForMetadataId(metadataLinkLocation);
+		// testThumbUriIs(page6, thumbUri, metadataLinkLocation);
 
 		// deleteResource(page);
 	}

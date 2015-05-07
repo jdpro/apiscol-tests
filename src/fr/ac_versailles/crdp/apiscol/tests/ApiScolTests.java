@@ -54,13 +54,11 @@ public class ApiScolTests {
 	protected static final String LOGIN = "crdp";
 	protected static final String PASSWORD = "foucault";
 	protected WebClient webClient;
-	protected String authorizationToken;
 	protected String testDataDirectory;
 	protected boolean overallDeletionAuthorized;
 	protected static String editionServiceBaseUrl;
 	protected static String metaServiceBaseUrl;
 	protected static String contentServiceBaseUrl;
-	protected static String packServiceBaseUrl;
 	protected static String thumbsServiceBaseUrl;
 	private static String noncePatternStr = "nextnonce=\"([^\"]+)\"";
 	private static Pattern noncePattern = Pattern.compile(noncePatternStr);
@@ -72,19 +70,16 @@ public class ApiScolTests {
 		webClient.getOptions().setUseInsecureSSL(true);
 		editionServiceBaseUrl = System.getProperty("edit.ws.url");
 		if (StringUtils.isEmpty(editionServiceBaseUrl))
-			editionServiceBaseUrl = "https://localhost:8443";
+			editionServiceBaseUrl = "http://apiscol:8080";
 		metaServiceBaseUrl = System.getProperty("meta.ws.url");
 		if (StringUtils.isEmpty(metaServiceBaseUrl))
-			metaServiceBaseUrl = "http://localhost:8080";
+			metaServiceBaseUrl = "http://apiscol:8080";
 		contentServiceBaseUrl = System.getProperty("content.ws.url");
 		if (StringUtils.isEmpty(contentServiceBaseUrl))
-			contentServiceBaseUrl = "http://localhost:8080";
-		packServiceBaseUrl = System.getProperty("pack.ws.url");
-		if (StringUtils.isEmpty(packServiceBaseUrl))
-			packServiceBaseUrl = "http://localhost:8080";
+			contentServiceBaseUrl = "http://apiscol:8080";
 		thumbsServiceBaseUrl = System.getProperty("thumbs.ws.url");
 		if (StringUtils.isEmpty(thumbsServiceBaseUrl))
-			thumbsServiceBaseUrl = "http://localhost:8080";
+			thumbsServiceBaseUrl = "http://apiscol:8080";
 		testDataDirectory = System.getProperty("tests.data.dir");
 		if (StringUtils.isEmpty(testDataDirectory))
 			testDataDirectory = "data/";
@@ -94,54 +89,6 @@ public class ApiScolTests {
 
 	public void closeClient() {
 		webClient.closeAllWindows();
-	}
-
-	protected boolean getAuthorizationToken(URL url, String login,
-			String password) {
-		WebRequest request = new WebRequest(url, HttpMethod.POST);
-		request.setAdditionalHeader("Authorization", "crdpfoucault");
-		request.setAdditionalHeader("Accept", "application/xml");
-		TextPage page = null;
-		try {
-			page = webClient.getPage(request);
-		} catch (FailingHttpStatusCodeException e) {
-			assertTrue(
-					"The response code should be ok and not"
-							+ e.getStatusCode(), false);
-			return false;
-		} catch (IOException e) {
-			assertTrue(
-					"No connection to the service with url "
-							+ url.toString()
-							+ " -- did you start the server ?, the message was "
-							+ e.getMessage(), false);
-			return false;
-		}
-		if (renewAuthorization(page))
-			return true;
-		return false;
-	}
-
-	protected boolean renewAuthorization(Page page) {
-		String authentificationInfoHeader = page.getWebResponse()
-				.getResponseHeaderValue("Authentification-Info");
-		assertTrue(
-				"There should be an Authentification-Info header in the response, it is "
-						+ page.getWebResponse().getContentAsString(),
-				StringUtils.isNotEmpty(authentificationInfoHeader));
-
-		Matcher m = noncePattern.matcher(authentificationInfoHeader);
-		assertTrue(
-				"The Authentification-Info header should be of the following form : nextnonce=\"here-the-nonce\", it is : "
-						+ authentificationInfoHeader, m.matches());
-		try {
-			authorizationToken = m.group(1);
-		} catch (IllegalStateException e) {
-			assertTrue(
-					"The Authentification-Info header should be of the following form : nextnonce=\"here-the-nonce\", it is : "
-							+ authentificationInfoHeader, false);
-		}
-		return StringUtils.isNotEmpty(authorizationToken);
 	}
 
 	protected URL getServiceUrl(String path, String baseUrl) {
@@ -167,7 +114,6 @@ public class ApiScolTests {
 		URL url = getServiceUrl("/edit/maintenance/" + service + "/" + command,
 				editionServiceBaseUrl);
 		WebRequest request = new WebRequest(url, HttpMethod.POST);
-		request.setAdditionalHeader("Authorization", authorizationToken);
 		request.setAdditionalHeader("Accept", "application/atom+xml");
 		request.setEncodingType(FormEncodingType.URL_ENCODED);
 
@@ -182,7 +128,6 @@ public class ApiScolTests {
 		} catch (IOException e) {
 			assertTrue("No connection to the service", false);
 		}
-		renewAuthorization(page);
 		return page;
 	}
 
@@ -437,7 +382,6 @@ public class ApiScolTests {
 	protected XmlPage postMetadataDocument(String path, URL url,
 			boolean ignoreFailure) {
 		WebRequest request = new WebRequest(url, HttpMethod.POST);
-		request.setAdditionalHeader("Authorization", authorizationToken);
 		request.setAdditionalHeader("Accept", "application/atom+xml");
 		request.setEncodingType(FormEncodingType.MULTIPART);
 		ArrayList<NameValuePair> params = new ArrayList<NameValuePair>();
@@ -459,7 +403,6 @@ public class ApiScolTests {
 		} catch (IOException e) {
 			assertTrue("No connection to the service", false);
 		}
-		renewAuthorization(page);
 		return page;
 	}
 
@@ -547,7 +490,6 @@ public class ApiScolTests {
 
 	protected XmlPage postImsLdDocument(File file, URL url) {
 		WebRequest request = new WebRequest(url, HttpMethod.POST);
-		request.setAdditionalHeader("Authorization", authorizationToken);
 		request.setAdditionalHeader("Accept", "application/atom+xml");
 		request.setEncodingType(FormEncodingType.MULTIPART);
 		ArrayList<NameValuePair> params = new ArrayList<NameValuePair>();
@@ -567,7 +509,6 @@ public class ApiScolTests {
 		} catch (IOException e) {
 			assertTrue("No connection to the service", false);
 		}
-		renewAuthorization(page);
 		return page;
 	}
 
@@ -581,9 +522,6 @@ public class ApiScolTests {
 	protected XmlPage getNewResourcePage(String metadata, String type) {
 		URL url = getServiceUrl("/edit/meta", editionServiceBaseUrl);
 		assertTrue("The Url must be valid", url != null);
-		assertTrue(
-				"An authorization token was not gotten with this credentials",
-				getAuthorizationToken(url, LOGIN, PASSWORD));
 		XmlPage page = createNewRessource(metadata, type);
 		return page;
 	}
@@ -591,7 +529,6 @@ public class ApiScolTests {
 	private XmlPage createNewRessource(String metadata, String type) {
 		WebRequest request = new WebRequest(getServiceUrl("/edit/resource",
 				editionServiceBaseUrl), HttpMethod.POST);
-		request.setAdditionalHeader("Authorization", authorizationToken);
 		request.setAdditionalHeader("Accept", "application/atom+xml");
 		request.setEncodingType(FormEncodingType.URL_ENCODED);
 		ArrayList<NameValuePair> params = new ArrayList<NameValuePair>();
@@ -609,7 +546,6 @@ public class ApiScolTests {
 		} catch (IOException e) {
 			assertTrue("No connection to the service", false);
 		}
-		renewAuthorization(page);
 		return page;
 	}
 
@@ -657,7 +593,6 @@ public class ApiScolTests {
 			String metadataLinkLocation, String etag) {
 		WebRequest request = new WebRequest(getServiceUrl(editUri, null),
 				HttpMethod.PUT);
-		request.setAdditionalHeader("Authorization", authorizationToken);
 		request.setAdditionalHeader("Accept", "application/xml");
 		request.setAdditionalHeader("If-Match", etag);
 		request.setRequestBody("mdid=" + metadataLinkLocation);
@@ -673,7 +608,6 @@ public class ApiScolTests {
 		} catch (IOException e) {
 			assertTrue("No connection to the service", false);
 		}
-		renewAuthorization(page);
 		return page;
 
 	}
@@ -687,18 +621,10 @@ public class ApiScolTests {
 		}
 		WebRequest request = new WebRequest(getServiceUrl(url, null),
 				HttpMethod.PUT);
-		request.setAdditionalHeader("Authorization", authorizationToken);
 		request.setAdditionalHeader("Accept", "application/xml");
 		request.setRequestBody("mdid=" + url);
 		request.setEncodingType(FormEncodingType.URL_ENCODED);
 
-		/*
-		 * WebRequest request = new WebRequest(getServiceUrl(url, null),
-		 * HttpMethod.PUT); request.setAdditionalHeader("Authorization",
-		 * authorizationToken); request.setAdditionalHeader("Accept",
-		 * "application/atom+xml");
-		 * request.setEncodingType(FormEncodingType.MULTIPART);
-		 */
 		ArrayList<NameValuePair> params = new ArrayList<NameValuePair>();
 		File file = new File(testDataDirectory + filePath);
 		assertTrue("Test file does not exist " + file.getAbsolutePath(),
@@ -717,7 +643,6 @@ public class ApiScolTests {
 		} catch (IOException e) {
 			assertTrue("No connection to the service", false);
 		}
-		renewAuthorization(page);
 		return page;
 	}
 
@@ -749,7 +674,6 @@ public class ApiScolTests {
 
 		WebRequest request = new WebRequest(getServiceUrl(url, null),
 				HttpMethod.POST);
-		request.setAdditionalHeader("Authorization", authorizationToken);
 		request.setAdditionalHeader("Accept", "application/atom+xml");
 		request.setAdditionalHeader("If-Match", etag);
 		request.setEncodingType(FormEncodingType.MULTIPART);
@@ -773,7 +697,6 @@ public class ApiScolTests {
 		} catch (IOException e) {
 			assertTrue("No connection to the service", false);
 		}
-		renewAuthorization(page);
 		return page;
 	}
 
@@ -781,7 +704,6 @@ public class ApiScolTests {
 			String etag) {
 		WebRequest request = new WebRequest(getServiceUrl(url, null),
 				HttpMethod.POST);
-		request.setAdditionalHeader("Authorization", authorizationToken);
 		request.setAdditionalHeader("Accept", "application/atom+xml");
 		request.setAdditionalHeader("If-Match", etag);
 
@@ -799,7 +721,6 @@ public class ApiScolTests {
 		} catch (IOException e) {
 			assertTrue("No connection to the service", false);
 		}
-		renewAuthorization(page);
 		return page;
 	}
 
@@ -820,7 +741,6 @@ public class ApiScolTests {
 					"application/atom+xml");
 			WebRequest request = new WebRequest(getServiceUrl(link, null),
 					HttpMethod.GET);
-			request.setAdditionalHeader("Authorization", authorizationToken);
 			request.setAdditionalHeader("Accept", "application/atom+xml");
 			XmlPage page2 = null;
 			try {
@@ -922,7 +842,6 @@ public class ApiScolTests {
 		WebRequest request = new WebRequest(getServiceUrl(editUri, null),
 				HttpMethod.DELETE);
 		request.setAdditionalHeader("Accept", "application/atom+xml");
-		request.setAdditionalHeader("Authorization", authorizationToken);
 		request.setAdditionalHeader("If-Match", getAtomUpdatedField(page));
 		XmlPage page2 = null;
 		try {
@@ -935,7 +854,6 @@ public class ApiScolTests {
 		} catch (IOException e) {
 			assertTrue("No connection to the service", false);
 		}
-		renewAuthorization(page2);
 
 	}
 
@@ -969,7 +887,6 @@ public class ApiScolTests {
 		assertTrue("The Url must be valid", url != null);
 		WebRequest request = new WebRequest(url, HttpMethod.PUT);
 		request.setAdditionalHeader("Accept", "application/atom+xml");
-		request.setAdditionalHeader("Authorization", authorizationToken);
 		request.setAdditionalHeader(HttpHeaders.IF_MATCH, etag);
 		XmlPage page = null;
 		try {
@@ -982,7 +899,6 @@ public class ApiScolTests {
 		} catch (IOException e) {
 			assertTrue("No connection to the service", false);
 		}
-		renewAuthorization(page);
 		return page;
 	}
 
@@ -993,7 +909,6 @@ public class ApiScolTests {
 		assertTrue("The Url must be valid", url != null);
 		WebRequest request = new WebRequest(url, HttpMethod.PUT);
 		request.setAdditionalHeader("Accept", "application/atom+xml");
-		request.setAdditionalHeader("Authorization", authorizationToken);
 		request.setAdditionalHeader(HttpHeaders.IF_MATCH, etag);
 		XmlPage page = null;
 		try {
@@ -1006,7 +921,6 @@ public class ApiScolTests {
 		} catch (IOException e) {
 			assertTrue("No connection to the service", false);
 		}
-		renewAuthorization(page);
 		return page;
 	}
 
@@ -1237,7 +1151,6 @@ public class ApiScolTests {
 		List<NameValuePair> list = new ArrayList<NameValuePair>();
 		list.add(new NameValuePair("mdid", uri));
 		request.setRequestParameters(list);
-		request.setAdditionalHeader("Authorization", authorizationToken);
 		request.setAdditionalHeader("Accept", "application/atom+xml");
 		request.setAdditionalHeader("If-Match", updated);
 		XmlPage page = null;
@@ -1251,7 +1164,6 @@ public class ApiScolTests {
 		} catch (IOException e) {
 			assertTrue("No connection to the service", false);
 		}
-		renewAuthorization(page);
 		return page;
 	}
 
@@ -1262,9 +1174,6 @@ public class ApiScolTests {
 	public XmlPage postingImsLdFile1(File tempDir, boolean automatedThumbs) {
 		URL url = getServiceUrl("/edit/meta", editionServiceBaseUrl);
 		assertTrue("The Url must be valid", url != null);
-		assertTrue(
-				"An authorization token was not gotten with this credentials",
-				getAuthorizationToken(url, LOGIN, PASSWORD));
 
 		Document manifest = loadManifest(tempDir);
 		extractLearningObjects(manifest, tempDir, url, automatedThumbs);

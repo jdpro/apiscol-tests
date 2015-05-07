@@ -110,8 +110,8 @@ public class ImportEdubasesTest extends ApiScolTests {
 		while (it.hasNext()) {
 			i++;
 			System.out.println(i + ".");
-			// if (i > 30)
-			// break;
+			if (i > 30)
+				break;
 
 			HtmlElement h3Elem = it.next();
 			// if (i < 3000)
@@ -868,9 +868,6 @@ public class ImportEdubasesTest extends ApiScolTests {
 
 	private void postLinkToApiscol(String filePath, String pageUri) {
 
-		assertTrue(
-				"An authorization token was not gotten with this credentials",
-				getAuthorizationToken(url, LOGIN, PASSWORD));
 		XmlPage page = postMetadataDocument(filePath, url, false);
 		String metadataLinkLocation = getAtomLinkLocation(page, "self",
 				"text/html");
@@ -896,9 +893,7 @@ public class ImportEdubasesTest extends ApiScolTests {
 	}
 
 	private void postFileToApiscol(String filePath, String pageUri) {
-		assertTrue(
-				"An authorization token was not gotten with this credentials",
-				getAuthorizationToken(url, LOGIN, PASSWORD));
+
 		XmlPage page = postMetadataDocument(filePath, url, false);
 		String metadataLinkLocation = getAtomLinkLocation(page, "self",
 				"text/html");

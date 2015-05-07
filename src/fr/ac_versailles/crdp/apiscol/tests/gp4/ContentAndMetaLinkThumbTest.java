@@ -29,9 +29,6 @@ public class ContentAndMetaLinkThumbTest extends ApiScolTests {
 	public void testPostingLinkWithMetadata() {
 		URL url = getServiceUrl("/edit/meta", editionServiceBaseUrl);
 		assertTrue("The Url must be valid", url != null);
-		assertTrue(
-				"An authorization token was not gotten with this credentials",
-				getAuthorizationToken(url, LOGIN, PASSWORD));
 		XmlPage page = postMetadataDocument("enqstat.xml", url);
 		String metadataLinkLocation = getAtomLinkLocation(page, "self",
 				"text/html");

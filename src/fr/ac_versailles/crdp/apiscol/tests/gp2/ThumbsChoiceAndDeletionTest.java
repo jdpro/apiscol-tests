@@ -29,9 +29,6 @@ public class ThumbsChoiceAndDeletionTest extends ApiScolTests {
 	public void testPostingDocumentWithMetadataChoosingThumbAndDeletingMeta() {
 		URL url = getServiceUrl("/edit/meta", editionServiceBaseUrl);
 		assertTrue("The Url must be valid", url != null);
-		assertTrue(
-				"An authorization token was not gotten with this credentials",
-				getAuthorizationToken(url, LOGIN, PASSWORD));
 		XmlPage metadataPage = postMetadataDocument("appel-hanovre-87451.xml",
 				url);
 		String metadataLinkLocation = getAtomLinkLocation(metadataPage, "self",
