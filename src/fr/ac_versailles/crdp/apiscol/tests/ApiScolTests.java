@@ -70,16 +70,16 @@ public class ApiScolTests {
 		webClient.getOptions().setUseInsecureSSL(true);
 		editionServiceBaseUrl = System.getProperty("edit.ws.url");
 		if (StringUtils.isEmpty(editionServiceBaseUrl))
-			editionServiceBaseUrl = "http://apiscol:8080";
+			editionServiceBaseUrl = "http://dev-metaeduc.itop.local";
 		metaServiceBaseUrl = System.getProperty("meta.ws.url");
 		if (StringUtils.isEmpty(metaServiceBaseUrl))
-			metaServiceBaseUrl = "http://apiscol:8080";
+			metaServiceBaseUrl = "http://dev-metaeduc.itop.local";
 		contentServiceBaseUrl = System.getProperty("content.ws.url");
 		if (StringUtils.isEmpty(contentServiceBaseUrl))
-			contentServiceBaseUrl = "http://apiscol:8080";
+			contentServiceBaseUrl = "http://dev-metaeduc.itop.local";
 		thumbsServiceBaseUrl = System.getProperty("thumbs.ws.url");
 		if (StringUtils.isEmpty(thumbsServiceBaseUrl))
-			thumbsServiceBaseUrl = "http://apiscol:8080";
+			thumbsServiceBaseUrl = "http://dev-metaeduc.itop.local";
 		testDataDirectory = System.getProperty("tests.data.dir");
 		if (StringUtils.isEmpty(testDataDirectory))
 			testDataDirectory = "data/";
